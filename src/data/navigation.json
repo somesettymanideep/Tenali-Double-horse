@@ -28,7 +28,7 @@
     },
     {
         "id": 3,
-        "linkText": "Blog",
+        "linkText": "",
         "child": true,
         "submenu": [
             {
@@ -67,7 +67,7 @@
     },
     {
         "id": 3,
-        "linkText": "Pages",
+        "linkText": "",
         "child": true,
         "submenu": [
             {
@@ -109,7 +109,7 @@
     },
     {
         "id": 4,
-        "linkText": "Menu",
+        "linkText": "",
         "child": true,
         "submenu": [
             {

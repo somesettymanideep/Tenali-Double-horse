@@ -18,7 +18,7 @@ class Hometwo extends Component {
                     />
                 </MetaTags>
                 <div style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/Tenali-Double-Horse-Background-image.jpg)" }}>
-                
+                <Header/>
                     <Content />
                     <Footer footer={{ style: "ct-footer", logo: "assets/img/tenali-double-horse-logo-135x73.png" }} />
                 </div>

@@ -31,7 +31,7 @@ class Categories extends Component {
             }]
         }
         return (
-            <div className="section pt-0 category-section">
+            <div className="section pt-0 category-section m-2">
                 <div className="container">
                     {/* Arrow */}
                     <i className="slider-prev fas fa-arrow-left slick-arrow" onClick={this.previous} />

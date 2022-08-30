@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Offer extends Component {
     render() {
         return (
-            <div className="section light-bg">
+            <div className="section light-bg m-2">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-lg-30">

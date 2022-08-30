@@ -29,7 +29,7 @@
     {
         "id": 3,
         "linkText": "",
-        "child": true,
+        "child": false,
         "submenu": [
             {
                 "id": 21,
@@ -68,7 +68,7 @@
     {
         "id": 3,
         "linkText": "",
-        "child": true,
+        "child": false,
         "submenu": [
             {
                 "id": 31,
@@ -110,7 +110,7 @@
     {
         "id": 4,
         "linkText": "",
-        "child": true,
+        "child": false,
         "submenu": [
             {
                 "id": 41,
@@ -136,12 +136,12 @@
     },
     {
         "id": 5,
-        "linkText": "Locations",
+        "linkText": "",
         "link": "/locations"
     },
     {
         "id": 6,
-        "linkText": "Contact Us",
+        "linkText": "",
         "link": "/contact"
     }
 ]

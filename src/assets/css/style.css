@@ -5308,3 +5308,8 @@ td.quantity{
   width:30%;
   height:100%;
 }
+.banner.banner-2 .title,
+  .banner.banner-2 .subtitle,
+  .banner.banner-2 h4{
+    color: #fff!important;
+  }

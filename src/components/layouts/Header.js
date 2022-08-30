@@ -64,7 +64,7 @@ class Header extends HeaderComponent {
                                 <img src={process.env.PUBLIC_URL + "/assets/img/Tenali-double-horse-logo-300X73.png"} alt="logo" />
                             </Link>
                             {/* Menu */}
-                            <Menu />
+                        
                             <div className="header-controls">
                                 <ul className="header-controls-inner">
                                     <li className="cart-dropdown-wrapper cart-trigger" onClick={this.cartToggle}>

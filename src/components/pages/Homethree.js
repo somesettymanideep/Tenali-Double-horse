@@ -17,7 +17,6 @@ class Homethree extends Component {
                         content="#"
                     />
                 </MetaTags> 
-                <Header/>
                 <Content/>
                 <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/logo-light.png" }} />
             </Fragment>

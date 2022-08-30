@@ -2455,7 +2455,7 @@ table img{
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color:transparent;
+  background-color:white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

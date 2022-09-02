@@ -1,68 +1,29 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
-const teamblock = [
-    {
-        img: "assets/img/team/1.jpg",
-        name: "Miranda Blue",
-        designation: "Executive Chef",
-    },
-    {
-        img: "assets/img/team/2.jpg",
-        name: "Jonathan Flock",
-        designation: "Assistant Chef",
-    },
-    {
-        img: "assets/img/team/3.jpg",
-        name: "Mich Jean",
-        designation: "Assistant Chef",
-    },
-    {
-        img: "assets/img/team/4.jpg",
-        name: "Andrew Lumber",
-        designation: "Assistant Chef",
-    },
-];
+
+
 
 class Teammembers extends Component {
     render() {
         return (
-            <div className="section section-padding">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 mb-lg-30">
-                            <div className="section-title-wrap">
+            <div className="team-members m-3 p-3">
+                
+                      
+                            <div className="content-container text-center">
                                 <h5 className="custom-primary">Our Backbone</h5>
                                 <h2 className="title">Meet The Team</h2>
                                 <p className="subtitle">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Tenali Double Horse team is committed to provide the highest quality products and services to our customers to satisfy their needs and expectations of quality, reliability, and timely delivery. Here is some more information about us.
           </p>
                                 <p className="subtitle">
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                The managing directors Shyam Prasad Garu, Yajurved Garu and Abhicharan Garu work hard to consistently meet and exceed the customer’s expectations for product quality and performance
           </p>
-                            </div>
-                            <Link to="#" className="btn-custom">View All</Link>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="row">
-                                {teamblock.map((item, i) => (
-                                    <div key={i} className="col-lg-6 col-sm-6">
-                                        <div className="ct-team-item">
-                                            <div className="ct-team-thumb">
-                                                <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
-                                            </div>
-                                            <div className="ct-team-desc">
-                                                <h5>{item.name}</h5>
-                                                <span>{item.designation}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
+                <p className='subtitle'>Over the years, Tenali Double Horse, a brand of Maharani Dall Mill has been the favorite choice for millions of women across  Indian. With impeccable distribution network across the world, today, Tenali Double Horse has reached every part of the world and has become the part and parcel of life for millions of customers.</p>
+                           
+          </div>
+                       
                     </div>
-                </div>
-            </div>
+            
         );
     }
 }

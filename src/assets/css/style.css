@@ -2114,20 +2114,23 @@ table img{
 
 /* Dark Footer */
 .ct-footer.footer-dark{
-  background-color: #1D2228;
+  background-color:#f9f9f9;
 }
 .ct-footer.footer-dark p,
 .ct-footer.footer-dark .footer-widget ul li a::before,
 .ct-footer.footer-dark .footer-bottom ul li a:hover,
-.ct-footer.footer-dark .footer-widget ul li a:hover,
-.ct-footer.footer-dark .footer-bottom .footer-copyright > a,
-.ct-footer.footer-dark .footer-widget .widget-title{
-  color: #fff;
+.ct-footer.footer-dark .footer-widget ul li a:hover
+
+{
+  color: #ED4E53;
+}
+.ct-footer.footer-dark .footer-bottom .footer-copyright > a,.ct-footer.footer-dark .footer-widget .widget-title{
+  color: #1D2228;
 }
 
 .ct-footer.footer-dark .footer-bottom ul li a,
 .ct-footer.footer-dark .footer-widget ul li a{
-  color: #b7b7b7;
+  color: #515151;
 }
 .ct-footer.footer-dark .footer-bottom ul{
   border-bottom: 1px solid rgba(255,255,255,.1);
@@ -5309,4 +5312,99 @@ td.quantity{
 .aha{
   width:30%;
   height:100%;
+}
+.rules-container{
+  width:100%;
+  margin:10px;
+  padding:10px;
+
+  display:flex;
+  background-color:white;
+}
+.Legacy-Container{
+  margin:20px;
+  width:50%;
+  padding:20px;
+  text-align:center;
+  background-color:white;
+  border-radius:10px;
+  border:1px solid;
+  border-color:#d3d3d3;
+  border-width:5px;
+  
+}
+
+.principles-Container{
+  margin:20px;
+  width:50%;
+  padding: 20px;
+  text-align: center;
+  background-color:white;
+  border-radius:10px;
+  border: 1px solid;
+  border-color:#d3d3d3;
+  border-width:5px;
+}
+
+.enquires{
+  width:100%;
+  background-color:#FCCC4C;
+  padding:25px;
+  
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+}
+.heading{
+  font-size:30px;
+  font-weight:bold;
+  font-family:"roboto";
+  color: white;
+
+}
+.button-gmail{
+  background-color:#ED4E53;
+  width:30%;
+  padding:5px;
+  border-radius:15px;
+  border-color:transparent;
+  color:white;
+}
+.Health-images{
+  display:flex;
+  padding:20px;
+}
+.smiley-paragraph{
+  font-size:20px;
+  font-family:sans-serif;
+
+}
+.smiley-image{
+  margin: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:5px;
+}
+.leaves-image{
+  margin:5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:5px;
+}
+.logo-health{
+  width:400px;
+  height:150px;
+}
+.smiley-logo{
+  width:85px;
+  height:70px;
+}
+.leaves-logo{
+    width:85px;
+    height:70px;
+  
 }

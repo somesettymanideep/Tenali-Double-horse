@@ -7,19 +7,15 @@ const successpost = [
         title: "Happy Customers"
     },
     {
-        icon: "flaticon-pizza-slice",
-        count: 65317,
-        title: "Pizzas Made"
+        icon:"fa-light fa-cubes-stacked",
+        count: 20,
+        title: "Products"
     },
+    
     {
-        icon: "flaticon-cheese",
-        count: 4658,
-        title: "Cheese Rolls"
-    },
-    {
-        icon: "flaticon-soda",
+        icon:  "fas fa-truck",
         count: 67335,
-        title: "Drinks Served"
+        title: "orders delivered"
     }
 ]
 
@@ -31,12 +27,12 @@ class Infographics extends Component {
                     <div className="section-title-wrap section-header text-center">
                         <h2 className="title text-white">Our success Story</h2>
                         <p className="subtitle text-white">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        Tenali Double Horse team is committed to provide the highest quality products and services to our customers to satisfy their needs and expectations of quality, reliability, and timely delivery.
                         </p>
                     </div>
                     <div className="row">
                         {successpost.map((item, i) => (
-                            <div key={i} className="col-lg-3 col-md-6 col-sm-6">
+                            <div key={i} className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="ct-infographic-item">
                                     <i className={item.icon} />
                                     <h4>{new Intl.NumberFormat().format(item.count)}</h4>

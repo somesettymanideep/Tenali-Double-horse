@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.5.3",
     "classnames": "^2.2.6",
+    "font-awesome": "^5.15.4",
     "git": "^0.1.5",
     "jquery": "^3.5.1",
     "leaflet": "^1.7.1",

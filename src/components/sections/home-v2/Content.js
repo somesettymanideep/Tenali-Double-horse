@@ -5,6 +5,7 @@ import Banner from './Banner';
 import Categories from './Categories';
 import Newsletter from './Newsletter';
 import Offer from './Offer';
+import Paragraph  from './Paragraph';
 
 
 class Content extends Component {
@@ -26,6 +27,7 @@ class Content extends Component {
                 
                 <Offer />
                 <Categories />
+                <Paragraph/>
                 
                 <div className="section pt-0 products-section">
                     <Products />

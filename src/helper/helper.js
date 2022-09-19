@@ -6,7 +6,7 @@ function Rating(rating) {
         stars.push(<i className="fa fa-star" key={i}></i>);
     }
     if (rating && rating > 0) {
-        for (let i = 0; i <= rating - 1; i++) {
+        for (let i = 0; i <= rating ; i++) {
             stars[i] = <i className="fa fa-star active" key={i}></i>;
         }
     }

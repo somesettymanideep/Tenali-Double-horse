@@ -2,15 +2,16 @@
     {
         "id": 1,
         "img": "assets/img/locations/1.jpg",
-        "title": "Slices London",
+        "title": "Regional Office",
         "brancetype": "Main Branch",
         "location": [
-            "Cecilia Chapman",
-            "711-2880 Nulla St.",
-            "Mankato Mississippi 96522"
+            "JK TOWERS, 8-2-293/82/B/S-7 ",
+             " 2nd Floor Road Number 10C ",
+              " Gayatri Hills Jubilee Hills,",
+               "  Hyderabad Telangana 500033, India"
         ],
-        "contactno": "(257) 563-7401",
-        "emailid": "info@slices.com",
+        "contactno": "1800270567567",
+        "emailid": "info@tenalidoublehorse.com",
         "mapdata": [
             40.711652,
             -73.963877
@@ -20,14 +21,16 @@
         "id": 2,
         "img": "assets/img/locations/2.jpg",
         "title": "Slices Washington",
-        "brancetype": "Secondary Branch",
+        "brancetype": "Factory Office",
         "location": [
-            "Iris Watson",
-            "P.O. Box 283 8562 Fusce Rd.",
-            "Frederick Nebraska 20620"
+            "Maharani Dall Mill ",
+             " Plot No. 38 & 39 Somasundaram Palem,",
+             "  Auto Nagar Katevaram,",
+              " Guntur District Andhra Pradesh,",
+              "  522202 ,India"
         ],
-        "contactno": "(372) 587-2335",
-        "emailid": "info@slices-dc.com",
+        "contactno": "1800270567567",
+        "emailid": "info@tenalidoublehorse.com",
         "mapdata": [
             40.711652,
             -73.963877

@@ -7,7 +7,7 @@ const successpost = [
         title: "Happy Customers"
     },
     {
-        icon:"fa-light fa-cubes-stacked",
+        icon:"fas fa-box-open",
         count: 20,
         title: "Products"
     },

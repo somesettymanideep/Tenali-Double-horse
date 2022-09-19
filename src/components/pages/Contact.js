@@ -19,7 +19,7 @@ class Contact extends Component {
                 </MetaTags> 
                 <Header/>
                 <Content/>
-                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/logo-light.png" }} />
+                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/tenali-double-horse-logo-135x73.png" }} />
             </Fragment>
         );
     }

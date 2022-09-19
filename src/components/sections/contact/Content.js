@@ -7,7 +7,9 @@ const customMarker = L.icon({
     iconSize: [32, 32],
 });
 
-const latlng = [51.5, -0.09]
+
+const latlng = [16.23, 80.6481]
+const lnglat = [17.43,78.405990]
 
 class Content extends Component {
     render() {
@@ -18,16 +20,36 @@ class Content extends Component {
                         className="markercluster-map ct-contact-map"
                         center={latlng}
                         zoom={16}
+                        width={500}
+                        height={500}
                         scrollWheelZoom={false}
                     >
                         <TileLayer
-                            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
-                            attribution='&copy; Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        
                             maxZoom={16}
                         />
                         <Marker position={latlng} icon={customMarker}></Marker>
+                        <a rel={'external'} className="btn-custom shadow-none" href={"https://goo.gl/maps/SacbcbyEGm4e14hM6"} target="_blank">View in Google Maps</a>
                     </MapContainer>
-                    <a rel={'external'} className="btn-custom shadow-none" href={"https://maps.google.com/?q=" + latlng}>View in Google Maps</a>
+                   
+                    <MapContainer
+                        className="markercluster-map ct-contact-map"
+                        center={lnglat}
+                        zoom={16}
+                        width={500}
+                        height={500}
+                        scrollWheelZoom={false}
+                    >
+                        <TileLayer
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        
+                            maxZoom={16}
+                        />
+                        <Marker position={lnglat} icon={customMarker}></Marker>
+                        <a rel={'external'} className="btn-custom shadow-none" href={"https://goo.gl/maps/XY6qusj5vM8HBqeDA"} target="_blank">View in Google Maps</a>
+                    </MapContainer>
+                    
                 </div>
                 <div>
                     <div className="section section-padding">
@@ -38,10 +60,10 @@ class Content extends Component {
                                         <div className="ct-info-box">
                                             <i className="flaticon-location" />
                                             <h5>Find Us</h5>
-                                            <span>445 Mount Eden Road, Mount Eden</span>
-                                            <span>21 Greens Road RD 2 Ruawai 0592</span>
-                                            <span> +123 456 789 </span>
-                                            <span> info@example.com </span>
+                                            <span>Maharani Dall Mill Plot No. 38 & 39</span>
+                                            <span>Somasundaram Palem, Auto Nagar</span>
+                                            <span>Katevaram, Guntur District, Andhra Pradesh</span>
+                                            <span>  522202</span>
                                         </div>
                                     </div>
                                     <div className="col-xl-6">
@@ -63,7 +85,7 @@ class Content extends Component {
                             <div className="section-title-wrap">
                                 <h2 className="title">Send us a Message </h2>
                                 <p className="subtitle">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. There are many variations of passages
+                                Contact us we love to talk with you more than you know! Just dial up and contact us. 
           </p>
                             </div>
                             <form>

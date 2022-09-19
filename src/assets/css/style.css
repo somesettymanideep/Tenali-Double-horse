@@ -4009,8 +4009,9 @@ table img{
   position: relative;
 }
 .ct-contact-map{
-  height: 100%;
-  width: 100%;
+  height:40%;
+  width:100%;
+  margin:20px;
 }
 .section-map  .ct-contact-map-wrapper{
   height: 400px;

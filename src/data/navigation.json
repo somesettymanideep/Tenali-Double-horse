@@ -68,7 +68,7 @@
     {
         "id": 3,
         "linkText": "pages",
-        "child": false,
+        "child": true,
         "submenu": [
             {
                 "id": 31,
@@ -109,7 +109,7 @@
     },
     {
         "id": 4,
-        "linkText": "",
+        "linkText": "Products",
         "child": false,
         "submenu": [
             {
@@ -136,12 +136,12 @@
     },
     {
         "id": 5,
-        "linkText": "",
+        "linkText": "Locations",
         "link": "/locations"
     },
     {
         "id": 6,
-        "linkText": "",
+        "linkText": "Contact",
         "link": "/contact"
     }
 ]

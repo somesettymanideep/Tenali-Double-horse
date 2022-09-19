@@ -82,7 +82,7 @@ class Footer extends Component {
                         </ul>
                         <div className="footer-copyright">
                             <p> Copyright © 2022 <Link to=" ">Tenali Double Horse </Link> All Rights Reserved. </p>
-                            <Link to=" " className="back-to-top" onClick={() => this.scrollToTop()}>Back to top <i className="fas fa-chevron-up" /> </Link>
+                            <Link to="#" className="back-to-top" onClick={() => this.scrollToTop()}>Back to top <i className="fas fa-chevron-up" /> </Link>
                         </div>
                     </div>
                 </div>

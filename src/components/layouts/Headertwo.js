@@ -38,7 +38,7 @@ class Headertwo extends HeaderComponent {
                 {/* Search Form End*/}
                 {/* Aside (Mobile Navigation) */}
                 <aside className={classNames("main-aside", { "open": this.state.navmethod })}>
-                
+                <Mobilemenu/>
                 </aside>
                 <div className="aside-overlay aside-trigger" onClick={this.toggleNav} />
                 {/* Header Start */}

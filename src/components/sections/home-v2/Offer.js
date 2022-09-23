@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 class Offer extends Component {
     render() {
         return (
-            <div className="section light-bg m-2">
+            <div className="section light-bg gap ">
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className="row">
                         <div className="col-lg-6 mb-lg-30">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/Eco Pack.jpg"} alt="img" />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/Eco Pack.jpg"}  alt="img" />
                         </div>
                         <div className="col-lg-6">
                             <div className="section-title-wrap mr-lg-30">

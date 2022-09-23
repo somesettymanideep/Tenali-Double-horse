@@ -16,7 +16,7 @@ class Content extends Component {
                     {location.map((item, i) => (
                         <div key={i} className="location-item">
                             <div className="row">
-                                <div className="col-md-6">
+                                <div className="col-md-6" style={{order:1}}>
                                     <div className="location-item-inner">
                                         <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.title} />
                                         <div className="location-desc">
@@ -38,7 +38,7 @@ class Content extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-md-6" style={{order:0}}>
                                     <div className="ct-contact-map-wrapper">
                                         <MapContainer
                                             className="markercluster-map ct-contact-map"
@@ -47,7 +47,7 @@ class Content extends Component {
                                             scrollWheelZoom={false}
                                         >
                                             <TileLayer
-                                                url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+                                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                                                 attribution='&copy; Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
                                                 maxZoom={16}
                                             />
@@ -55,6 +55,7 @@ class Content extends Component {
                                         </MapContainer>
                                         <a rel={'external'} className="btn-custom shadow-none" href={"http://maps.google.com/?q=" + item.mapdata}>View in Google Maps</a>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>

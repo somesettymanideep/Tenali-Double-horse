@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Paragraph extends Component {
     render() {
         return (
-            <div className="section light-bg m-2">
+            <div className="section light-bg gap">
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className="row align-items-center ">
                         <div className="col-lg-6 mb-lg-30">
                             <img src={process.env.PUBLIC_URL + "/assets/img/misc/tenali-double-horse-logo-800x800.png"} alt="img" className='logo-health'/>
                             <div className="Health-images">

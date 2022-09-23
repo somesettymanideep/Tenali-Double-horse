@@ -13,20 +13,17 @@ class Content extends Component {
         return (
             <Fragment>
                 <Banner />
-                <div className='activites'>
+                <div className='activites '>
                     <h2 className='title text-center'>Notable Activities</h2>
                     <div className='social-media'>
                         <img src={process.env.PUBLIC_URL + "/assets/img/misc/aha.png"} className="aha" alt="aha"/>
                         <img src={process.env.PUBLIC_URL + "/assets/img/misc/double-horse.png"} className="aha" alt="aha"/>
-                        <img src={process.env.PUBLIC_URL + "/assets/img/misc/amma-kuchi.png"} className="aha" alt="aha"/>
-                        
+                        <img src={process.env.PUBLIC_URL + "/assets/img/misc/amma-kuchi.png"} className="aha" alt="aha"/>   
                     </div>
-                    
-
                 </div>
                 
                 <Offer />
-                <Categories />
+                <Categories className="mb-2" />
                 <Paragraph/>
                 
                 <div className="section pt-0 products-section">

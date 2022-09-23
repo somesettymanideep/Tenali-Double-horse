@@ -52,7 +52,7 @@ class Products extends Component {
             ]
         }
         return (
-            <Fragment>
+            <Fragment className="gap">
                 <div className="container">
                     <div className="section-title-wrap section-header text-center">
                         <h5 className="custom-primary">Trending</h5>
@@ -68,11 +68,16 @@ class Products extends Component {
                                 </Link>
                                 <div className="product-body">
                                     <div className="product-desc">
+                                        <div>
                                         <h4> <Link to={"/menu-item-v1/" + item.id}>{item.name}</Link> </h4>
-                                        <p>{item.shortdesc}</p>
+                                        <p >{item.shortdesc}</p>
+                                        </div>
+                                        <div>
                                         <p className="product-price">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</p>
                                         <div className="favorite">
+                                        
                                             <i className="far fa-heart" />
+                                        </div>
                                         </div>
                                     </div>
                                     <div className="product-controls">

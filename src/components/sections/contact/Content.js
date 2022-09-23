@@ -9,32 +9,17 @@ const customMarker = L.icon({
 
 
 const latlng = [16.23, 80.6481]
-const lnglat = [17.43,78.405990]
+const lnglat = [17.430180,78.425360]
 
 class Content extends Component {
     render() {
         return (
             <div className="contact-wrapper">
                 <div className="ct-contact-map-wrapper">
-                    <MapContainer
-                        className="markercluster-map ct-contact-map"
-                        center={latlng}
-                        zoom={16}
-                        width={500}
-                        height={500}
-                        scrollWheelZoom={false}
-                    >
-                        <TileLayer
-                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        
-                            maxZoom={16}
-                        />
-                        <Marker position={latlng} icon={customMarker}></Marker>
-                        <a rel={'external'} className="btn-custom shadow-none" href={"https://goo.gl/maps/SacbcbyEGm4e14hM6"} target="_blank">View in Google Maps</a>
-                    </MapContainer>
+                    
                    
                     <MapContainer
-                        className="markercluster-map ct-contact-map"
+                        className="markercluster-map ct-contact-map ml-3"
                         center={lnglat}
                         zoom={16}
                         width={500}
@@ -47,8 +32,9 @@ class Content extends Component {
                             maxZoom={16}
                         />
                         <Marker position={lnglat} icon={customMarker}></Marker>
-                        <a rel={'external'} className="btn-custom shadow-none" href={"https://goo.gl/maps/XY6qusj5vM8HBqeDA"} target="_blank">View in Google Maps</a>
+                        
                     </MapContainer>
+                    <a rel={'external'} className="btn-custom shadow-none" href={"https://goo.gl/maps/sPEAqoQrQzySbkek7"} target="_blank">View in Google Maps</a>
                     
                 </div>
                 <div>
@@ -60,10 +46,10 @@ class Content extends Component {
                                         <div className="ct-info-box">
                                             <i className="flaticon-location" />
                                             <h5>Find Us</h5>
-                                            <span>Maharani Dall Mill Plot No. 38 & 39</span>
-                                            <span>Somasundaram Palem, Auto Nagar</span>
-                                            <span>Katevaram, Guntur District, Andhra Pradesh</span>
-                                            <span>  522202</span>
+                                            <span>JK TOWERS, 8-2-293/82/B/S-7,</span>
+                                            <span> 2nd Floor, Road Number 10C,</span>
+                                            <span>Gayatri Hills, Jubilee Hills, Hyderabad</span>
+                                            <span>Telangana 500033, India</span>
                                         </div>
                                     </div>
                                     <div className="col-xl-6">

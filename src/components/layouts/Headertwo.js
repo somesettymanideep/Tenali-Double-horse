@@ -48,7 +48,7 @@ class Headertwo extends HeaderComponent {
                         <Link className="navbar-brand" to="/"> <img src={process.env.PUBLIC_URL + "/assets/img/tenali-double-horse-logo-135x73.png"} alt="logo" /> </Link>
                         {/* Menu */}
                     
-                    <Menu/>
+                    <Menu />
                        
                         <div className="header-controls">
                             <ul className="header-controls-inner">

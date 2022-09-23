@@ -31,14 +31,14 @@ class Categories extends Component {
             }]
         }
         return (
-            <div className="section pt-0 category-section m-2">
-                <div className="container">
+            <div className="section pt-0 pb-0 category-section">
+                <div className="container mb-3">
                     {/* Arrow */}
                     <i className="slider-prev fas fa-arrow-left slick-arrow" onClick={this.previous} />
                     <Slider className="category-slider" {...settings} ref={c => (this.slider = c)}>
                         {products.map((item, i) => (
                             <div key={i} className="ct-category category-2">
-                                <div className="ct-category-desc">
+                                <div className="ct-category-desc ">
                                     {item.category.slice(0, 1).map((category) => (
                                         productcategory.filter(item => {
                                             return item.id === category
@@ -50,7 +50,9 @@ class Categories extends Component {
                                     <p>{item.shortdesc}</p>
                                     <Link to=" " className="btn-custom">Order Now</Link>
                                 </div>
+                                
                                 <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />
+                               
                             </div>
                         ))}
                     </Slider>

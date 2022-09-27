@@ -25,7 +25,7 @@ class Paragraph extends Component {
                                 <h5 className="custom-primary">Good Health In</h5>
                                 <h2 className="title">Every "Bite"</h2>
                                 <p className="subtitle">
-                               Pulses are Good Source of Iron. Pulses are also a strachy Food and add fibre is asssociated with a reduced risk of Haert Disease and Type 2 Diabetes
+                               Pulses are Good Source of Iron. Pulses are also a strachy Food and add fibre to your meal.Eating a high diet fibre is asssociated with a reduced risk of Haert Disease and Type 2 Diabetes
           </p>
                                
                                

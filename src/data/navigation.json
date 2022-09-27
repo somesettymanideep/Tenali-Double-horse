@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "linkText": "Home pages ",
+        "linkText": "Home page ",
+        "link":"/",
         "child": false,
         "submenu": [
             {
@@ -27,16 +28,15 @@
         ]
     },
     {
-        "id": 3,
-        "linkText": "Blog",
+        "id": 2,
+        "linkText": "About",
+        "link":"/about",
         "child": false,
-        "submenu": [
-            {
+        "submenu": [{
                 "id": 21,
                 "linkText": "Blog Archive",
-                "child": true,
-                "submenu": [
-                    {
+                "child": false,
+                "submenu": [{
                         "id": 211,
                         "linkText": "Grid View",
                         "link": "/blog-grid"
@@ -65,10 +65,12 @@
             }
         ]
     },
+    
     {
         "id": 3,
-        "linkText": "pages",
-        "child": true,
+        "linkText": "About",
+        "link":"/about",
+        "child": false,
         "submenu": [
             {
                 "id": 31,
@@ -110,7 +112,7 @@
     {
         "id": 4,
         "linkText": "Products",
-        "child": true,
+        "child": false,
         "submenu": [
             {
                 "id": 41,
@@ -136,12 +138,9 @@
     },
     {
         "id": 5,
-        "linkText": "Locations",
-        "link": "/locations"
-    },
-    {
-        "id": 6,
         "linkText": "Contact",
-        "link": "/contact"
+        "link": "/locations"
     }
+    
+    
 ]

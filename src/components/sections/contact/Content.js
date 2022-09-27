@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import L from 'leaflet';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 
@@ -12,7 +13,14 @@ const latlng = [16.23, 80.6481]
 const lnglat = [17.430180,78.425360]
 
 class Content extends Component {
+
+    
+
+    
     render() {
+        
+        
+        
         return (
             <div className="contact-wrapper">
                 <div className="ct-contact-map-wrapper">
@@ -77,16 +85,16 @@ class Content extends Component {
                             <form>
                                 <div className="row">
                                     <div className="form-group col-lg-6">
-                                        <input type="text" placeholder="First Name" className="form-control" name="fname" />
+                                        <input type="text" placeholder="First Name" className="form-control" name="fname"  />
                                     </div>
                                     <div className="form-group col-lg-6">
-                                        <input type="text" placeholder="Last Name" className="form-control" name="lname" />
+                                        <input type="text" placeholder="Last Name" className="form-control" name="lname"  />
                                     </div>
                                     <div className="form-group col-lg-12">
-                                        <input type="email" placeholder="Email Address" className="form-control" name="email" />
+                                        <input type="email" placeholder="Email Address" className="form-control" name="email"  />
                                     </div>
                                     <div className="form-group col-lg-12">
-                                        <input type="text" placeholder="Subject" className="form-control" name="subject" />
+                                        <input type="text" placeholder="Subject" className="form-control" name="subject"  />
                                     </div>
                                     <div className="form-group col-lg-12">
                                         <textarea name="message" className="form-control" placeholder="Type your message" rows={8} />

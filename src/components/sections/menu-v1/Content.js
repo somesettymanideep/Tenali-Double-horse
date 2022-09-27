@@ -109,7 +109,7 @@ class Content extends Component {
         return (
             <Fragment>
                 {/* Menu Categories Start */} 
-                <div className="ct-menu-categories menu-filter">
+                {/*<div className="ct-menu-categories menu-filter">
                     <div className="container">
                         <Slider className="menu-category-slider" {...settings}>
                             <Link to="#" data-filter="*" className={this.state.activeItem === -1 ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, -1)}>
@@ -132,7 +132,7 @@ class Content extends Component {
                             ))}
                         </Slider>
                     </div>
-                </div>
+                </div>*/}
                 {/* Menu Categories End */}
                 {/* Menu Wrapper Start */}
                 <div className="section section-padding">

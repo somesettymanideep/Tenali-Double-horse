@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 class Aboutus extends Component {
     render() {
         return (
-            <div className="section">
+            <div className="section mt-5">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-lg-30 ct-single-img-wrapper">

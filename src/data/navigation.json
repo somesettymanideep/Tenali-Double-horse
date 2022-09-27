@@ -110,12 +110,12 @@
     {
         "id": 4,
         "linkText": "Products",
-        "child": false,
+        "child": true,
         "submenu": [
             {
                 "id": 41,
-                "link": " ",
-                "linkText": ""
+                "link": "/menu-v1",
+                "linkText": "Menu v1"
             },
             {
                 "id": 42,
@@ -129,8 +129,8 @@
             },
             {
                 "id": 44,
-                "link": "/menu-item-v2/1",
-                "linkText": "Menu Item v2"
+                "link": "",
+                "linkText": ""
             }
         ]
     },

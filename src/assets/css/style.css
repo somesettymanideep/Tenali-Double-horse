@@ -1736,7 +1736,7 @@ table img{
   max-width: 120px;
 }
 .main-header.header-2 .navbar-nav{
-  margin-right: auto;
+  margin-right:0px;
 }
 .main-header.header-2 .header-controls{
   background-color: #4e4e4e;
@@ -4221,7 +4221,7 @@ td.quantity{
   margin-bottom: 30px;
 }
 .product-body{
-  min-height:400px;
+  min-height:450px;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
@@ -5253,6 +5253,41 @@ td.quantity{
   .ct-category.category-2 img{
     width: 200px;
   }
+  .rules-container{
+    width:100%;
+    margin:10px;
+    padding:10px;
+  
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+  }
+  .Legacy-Container{
+    margin: 20px !important;
+    width: 90% !important;
+    padding: 20px !important;;
+    text-align:center!important;
+    background-color:white!important;
+    border: radius 10px !important;
+    border:1px solid!important;
+    border-color:#d3d3d3 !important;
+    
+    
+  }
+  .principles-Container{
+    margin: 20px !important;;
+    width: 90% !important;;
+    padding: 20px!important;
+    text-align: center!important;
+    background-color:white!important;
+    border: radius 10px !important;;
+    border: 1px solid!important;
+    border: color #d3d3d3 !important;;
+    
+  }
+  .location-item-inner{
+    margin-top:20px;
+  }
 
 }
 
@@ -5327,6 +5362,7 @@ td.quantity{
   .product .product-thumb img{
     width: 200px;
   }
+  
 
 }
 .activites{
@@ -5385,6 +5421,7 @@ td.quantity{
   width:100%;
   background-color:#FCCC4C;
   padding:25px;
+  margin-top: 10px;
   
   display:flex;
   justify-content:space-evenly;
@@ -5446,4 +5483,7 @@ td.quantity{
 .gap{
   margin-top:80px;
   margin-bottom:80px;
+}
+.team-members{
+  margin:5px;
 }

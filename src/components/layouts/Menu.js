@@ -52,7 +52,7 @@ class Menu extends Component {
                                     <div className="offset-lg-1 col-lg-3">
                                         <div className="mega-menu-item">
                                             <h5>Menu Pages</h5>
-                                            <Link to="/menu-v1">Menu v1</Link>
+                                            <Link to="/menu-v1">Our Products</Link>
                                             {/*<Link to="/menu-v2">Menu v2</Link>*/}
                                             <Link to="#" className="coming-soon"><span></span> </Link>
                                             <Link to="#" className="coming-soon"><span></span> </Link>

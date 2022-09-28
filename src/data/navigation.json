@@ -112,27 +112,13 @@
     {
         "id": 4,
         "linkText": "Products",
+        "link":"/menu-v1",
         "child": false,
         "submenu": [
             {
                 "id": 41,
                 "link": "/menu-v1",
-                "linkText": "Menu v1"
-            },
-            {
-                "id": 42,
-                "link": "/menu-v2",
-                "linkText": "Menu v2"
-            },
-            {
-                "id": 43,
-                "link": " ",
-                "linkText": " "
-            },
-            {
-                "id": 44,
-                "link": "",
-                "linkText": ""
+                "linkText": "our Products"
             }
         ]
     },

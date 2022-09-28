@@ -7,18 +7,8 @@ class Paragraph extends Component {
                 <div className="container">
                     <div className="row align-items-center ">
                         <div className="col-lg-6 mb-lg-30">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/tenali-double-horse-logo-800x800.png"} alt="img" className='logo-health'/>
-                            <div className="Health-images">
-                                <div className="smiley-image">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/Tenali-Double-Horse-smiley-50x50.png"} alt="img" className='smiley-logo' />
-                            <h3 className="smiley-paragraph">100% Tasty flavour</h3>
-                            </div>
-                            <div className="leaves-image">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/Tenali-Double-Horse-leaves-50x50.png"} alt="img" className='leaves-logo' />
-                            <h3 className="smiley-paragraph">fresh & Natural </h3>
-                            </div>
-
-                            </div>
+                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/Suma-500x400.png"} alt="img" />
+                            
                         </div>
                         <div className="col-lg-6">
                             <div className="section-title-wrap mr-lg-30 text-center">

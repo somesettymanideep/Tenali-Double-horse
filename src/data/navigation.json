@@ -65,11 +65,9 @@
             }
         ]
     },
-    
     {
         "id": 3,
-        "linkText": "About",
-        "link":"/about",
+        "linkText": "Blog",
         "child": false,
         "submenu": [
             {
@@ -121,6 +119,7 @@
                 "linkText": "our Products"
             }
         ]
+        
     },
     {
         "id": 5,

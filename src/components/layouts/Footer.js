@@ -28,10 +28,10 @@ class Footer extends Component {
                                 <h5 className="widget-title">Quick Links</h5>
                                 <ul>
                                     <li> <Link to="/">Gallery</Link> </li>
-                                    <li> <Link to=" ">Products</Link> </li>
+                                    <li> <Link to="/menu-v1">Products</Link> </li>
                                     <li> <Link to=" ">Recipes</Link> </li>
                                     <li> <Link to=" ">Blog</Link> </li>
-                                    <li> <Link to=" ">Contact</Link> </li>
+                                    <li> <Link to="/locations">Contact</Link> </li>
                                     <li> <Link to=" ">Shop</Link> </li>
                                     <li> <Link to=" ">Usa</Link> </li>
                                 </ul>

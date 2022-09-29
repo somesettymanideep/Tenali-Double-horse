@@ -30,12 +30,12 @@ class Menu extends Component {
                     </li>
                 )) : null}
                 <li className="menu-item menu-item-has-children mega-menu-wrapper">
-                    <Link to="#">Products</Link>
+                    <Link to="/menu-v1">Products</Link>
                     <ul className="submenu">
                         <li>
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-lg-6">
+                                    <div className="col-lg-12">
                                         <div className="mega-menu-item d-flex">
                                             <div className='col-lg-7'>
                                             <h5>Special Edition Eco Pack</h5>
@@ -44,20 +44,20 @@ class Menu extends Component {
                       </p>
                                             <Link to="/menu-item-v2" className="btn-custom secondary shadow-none btn-sm">Purchase</Link>
                                             </div>
-                                            <div className='col-lg-5'>
+                                            <div className='col-lg-3'>
                                             <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Eco-Pack-300x300.png"} alt="pizza" />
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="offset-lg-1 col-lg-3">
+                                    {/*<div className="offset-lg-1 col-lg-3">
                                         <div className="mega-menu-item">
                                             <h5>Menu Pages</h5>
                                             <Link to="/menu-v1">Our Products</Link>
-                                            {/*<Link to="/menu-v2">Menu v2</Link>*/}
+                                            <Link to="/menu-v2">Menu v2</Link>
                                             <Link to="#" className="coming-soon"><span></span> </Link>
                                             <Link to="#" className="coming-soon"><span></span> </Link>
                                         </div>
-                                    </div>
+                    </div>8/}
                                     {/*<div className="col-lg-4">
                                         <div className="mega-menu-item">
                                             <h5>Menu Item Pages</h5>

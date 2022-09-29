@@ -666,7 +666,7 @@ textarea{
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  position: relative;
+  position:relative;
 	background-color: #ED4E53;
   line-height: 24px;
   border: 0;
@@ -3993,7 +3993,7 @@ table img{
   bottom: 0;
   left: 0;
   margin: 15px;
-  z-index: 99999;
+  z-index:800;
 }
 .leaflet-marker-icon{
   -webkit-animation-name: markerUpDown;
@@ -4023,7 +4023,7 @@ table img{
   position: relative;
 }
 .ct-contact-map{
-  height:100%;
+  height:100vh;
   width:100%;
  
 }
@@ -5287,6 +5287,11 @@ td.quantity{
   }
   .location-item-inner{
     margin-top:20px;
+  }
+  .ct-contact-map{
+    height:100%;
+    width:100%;
+   
   }
 
 }

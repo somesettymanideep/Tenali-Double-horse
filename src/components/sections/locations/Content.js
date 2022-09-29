@@ -53,7 +53,7 @@ class Content extends Component {
                                             />
                                             <Marker position={item.mapdata} icon={customMarker}></Marker>
                                         </MapContainer>
-                                        <a rel={'external'} className="btn-custom shadow-none" href={"http://maps.google.com/?q=" + item.mapdata}>View in Google Maps</a>
+                                        <a  className="btn-custom shadow-none" href={"http://maps.google.com/?q=" + item.mapdata}>View in Google Maps</a>
                                     </div>
                                     
                                 </div>

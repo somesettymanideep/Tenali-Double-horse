@@ -29,7 +29,7 @@ class Banner extends Component {
                                     <h4>{item.subtitle}</h4>
                                     <p className="subtitle">{item.desc}</p>
                                 </div>
-                                <Link to=" " className="btn-custom primary">View Menu</Link>
+                                <a href={"https://tenalidoublehorse.com/products/ "} className="btn-custom primary">View Menu</a>
                             </div>
                             <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.title} />
                         </div>

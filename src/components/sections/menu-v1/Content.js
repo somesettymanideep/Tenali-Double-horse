@@ -79,7 +79,7 @@ class Content extends Component {
             fitWidth: true
         };
         const renderAll = this.state.filteredProducts.map((item, i) => (
-            <div key={i} className="col-lg-4 col-md-6 masonry-item sides">
+            <div key={i} className="col-lg-4 col-md-6 col-sm-12 masonry-item sides">
                 <div className="product">
                     <div className="favorite">
                         <i className="far fa-heart" />
@@ -99,8 +99,8 @@ class Content extends Component {
                             <Link to="#" className="btn-custom light btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)}> Customize <i className="fas fa-plus" /> </Link>
                         </div>
                         <div className="product-controls">
-                            <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}$</p>
-                            <Link to={"/menu-v1/" + item.id} className="order-item btn-custom btn-sm shadow-none">Order <i className="fas fa-shopping-cart" /> </Link>
+                            <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
+                            <a href={ item.urls} className="order-item btn-custom btn-sm shadow-none">Order <i className="fas fa-shopping-cart" /> </a>
                         </div>
                     </div>
                 </div>

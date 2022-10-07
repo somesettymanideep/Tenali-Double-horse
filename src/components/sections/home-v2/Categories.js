@@ -48,7 +48,7 @@ class Categories extends Component {
                                     ))}
                                     <h3>{item.name}</h3>
                                     <p>{item.shortdesc}</p>
-                                    <Link to=" " className="btn-custom">Order Now</Link>
+                                    <a href={item.urls}className="btn-custom">Order Now</a>
                                 </div>
                                 
                                 <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.name} />

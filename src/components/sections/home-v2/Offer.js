@@ -20,7 +20,7 @@ class Offer extends Component {
                                 <p className="subtitle">
                                 We encourage you to switch to the right choices, as it is the need of the hour!
           </p>
-                                <Link to="/menu-item-v1" className="btn-custom">Order Now</Link>
+                                <a href={"https://tenalidoublehorse.com/product/urad-gota-1-2-kg-eco-pack-of-2/"} className="btn-custom">Order Now</a>
                             </div>
                         </div>
                     </div>

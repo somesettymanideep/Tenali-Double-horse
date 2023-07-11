@@ -22,7 +22,7 @@ class Aboutus extends Component {
                                 We provide the best quality Urad Gota and Urad Dal near you.
           </p>
                                
-                                <Link to="/menu-v1" className="btn-custom">View More</Link>
+                                <a href={"https://tenalidoublehorse.com/product/urad-dal-1kg/"} className="btn-custom">View More</a>
                             </div>
                         </div>
                     </div>

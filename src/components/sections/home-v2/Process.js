@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom';
 const processpost = [
     {
         icon: "flaticon-online-booking",
-        title: "Order",
+        title: "Superior Quality",
         text: "There are many variations of passages of Lorem Ipsum available"
     },
     {
         icon: "flaticon-calories",
-        title: "Cook",
+        title: "Eco-Friendly Practices",
         text: "There are many variations of passages of Lorem Ipsum available"
     },
     {
         icon: "flaticon-delivery-man",
-        title: "Deliver",
+        title: "Trusted Brand",
         text: "There are many variations of passages of Lorem Ipsum available"
     },
     {
         icon: "flaticon-food-tray",
-        title: "Enjoy",
+        title: "High Nutritional Value",
         text: "There are many variations of passages of Lorem Ipsum available"
     }
 ]
@@ -28,10 +28,10 @@ const processpost = [
 class Process extends Component {
     render() {
         return (
-            <div className="container">
-                <div className="section-title-wrap section-header text-center">
-                    <h5 className="custom-primary">How We Do It</h5>
-                    <h2 className="title">We Deliver Your Food In 4 Steps</h2>
+            <div className="container  mb-5">
+                <div className="section-title-wrap section-header text-center ">
+                    <h5 className="custom-primary">Why Choose </h5>
+                    <h2 className="title">TenaliDoublehorse</h2>
                     <p className="subtitle">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>

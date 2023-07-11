@@ -6,6 +6,10 @@ import Categories from './Categories';
 import Newsletter from './Newsletter';
 import Offer from './Offer';
 import Paragraph  from './Paragraph';
+import Process from './Process';
+import Partners from './Partners'
+// import Reviews from './Reviews';
+
 
 
 class Content extends Component {
@@ -23,6 +27,7 @@ class Content extends Component {
                 </div>
                 
                 <Offer />
+                <Process/>
                 <Categories className="mb-2" />
                 <Paragraph/>
                 
@@ -30,6 +35,8 @@ class Content extends Component {
                     <Products />
                 </div>
                 
+                <Partners/>
+                {/* <Reviews/> */}
                 <Newsletter />
             </Fragment>
         );

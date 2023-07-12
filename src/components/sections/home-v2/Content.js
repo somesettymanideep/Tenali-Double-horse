@@ -7,7 +7,8 @@ import Newsletter from './Newsletter';
 import Offer from './Offer';
 import Paragraph  from './Paragraph';
 import Process from './Process';
-import Partners from './Partners'
+import Partners from './Partners';
+import Benefits from './Benefits';
 // import Reviews from './Reviews';
 
 
@@ -35,8 +36,10 @@ class Content extends Component {
                     <Products />
                 </div>
                 
-                <Partners/>
+                <Benefits/>
+                <Testimonials/>
                 {/* <Reviews/> */}
+                <Partners/>
                 <Newsletter />
             </Fragment>
         );

@@ -2,32 +2,53 @@
     "pizzamenu":[
         {
             "id":1,
-            "title":"Pepperoni Pizza",
+            "title":"Freshness",
             "price":14.99,
             "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
         },{
             "id":2,
-            "title":"Four Cheese",
+            "title":"Purity",
             "price":13.99,
             "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
         },{
             "id":3,
-            "title":"Vegetarian",
+            "title":"Authentic flavor",
             "price":9.99,
             "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
         },{
             "id":4,
-            "title":"Barbeque Chicken",
+            "title":"Texture",
             "price":13.99,
             "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
         },{
             "id":5,
-            "title":"Ham & Cheese",
+            "title":"Hygiene",
             "price":11.99,
             "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
         },{
             "id":6,
-            "title":"Specialty Pizza",
+            "title":"Longer Shelf Life",
+            "price":10.99,
+            "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
+        }
+        ,{
+            "id":7,
+            "title":"Easy to cook",
+            "price":10.99,
+            "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
+        },{
+            "id":8,
+            "title":"Nutrient-rich",
+            "price":10.99,
+            "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
+        },{
+            "id":9,
+            "title":"Versatility",
+            "price":10.99,
+            "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
+        },{
+            "id":10,
+            "title":"Customer Satisfaction",
             "price":10.99,
             "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been."
         }

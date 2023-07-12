@@ -53,17 +53,26 @@ class Partners extends Component {
         };
         
         return (
-            <div className="section">
+            <div className="section pt-0" >
                 <div className="container">
-                <h2 className="title text-center mb-5">We are also available on </h2>
+                
                     <div className="container">
-                        <Slider className="gallery-slider row" {...settings}>
+                    <div className="row ">
+                    <div className="col-lg-2 center-align" style={{backgroundColor:'#ED4E53'}}>
+      <p className='text-white' style={{fontWeight: 'bold' }}>TenaliDoublehorse</p>
+      <h4 className='text-white'>Our Partners</h4>
+
+    </div>
+    <div className="col-lg-10">
+                        <Slider className="gallery-slider row p-5" {...settings} style={{ backgroundColor: '#F2ECE4',paddingBottom: '-5px' }}>
                             {gallery.map((item, i) => (
                                 <Link  >
                                     <img src={process.env.PUBLIC_URL + "/" + item.img} alt="post" />
                                 </Link>
                             ))}
                         </Slider>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>

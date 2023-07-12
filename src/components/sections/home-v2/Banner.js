@@ -22,7 +22,7 @@ class Banner extends Component {
                 <Slider className="banner-slider-2" {...settings}>
                     {bannerpost.map((item, i) => (
                         <div key={i} className="banner-item d-flex">
-                            <div className="banner-bg bg-cover" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.bg + ")" }} />
+                            <div className="banner-bg bg-cover" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.bg + ")" }}  />
                             <div className="banner-inner">
                                 <div className="banner-text">
                                     <h1 className="title">{item.title}</h1>

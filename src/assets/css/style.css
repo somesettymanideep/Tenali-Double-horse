@@ -2454,6 +2454,7 @@ table img{
       -ms-flex: 0 600px;
           flex: 0 600px;
 }
+
 .banner.banner-2 .banner-inner{
   padding: 120px 40px;
   max-width: 100%;
@@ -2726,6 +2727,10 @@ table img{
 .ct-testimonial-item .ct-testimonial-content{
   background-color: #f9f9f9;
   text-align: center;
+  min-height: 430px!important;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 70px 20px 20px;
   -webkit-transition: .3s;
   -o-transition: .3s;
@@ -5375,8 +5380,8 @@ td.quantity{
   flex-direction:column;
   width:100%;
   height:100%;
-  margin-top:50px;
-  margin-bottom: 50px;
+  margin-top:30px;
+  margin-bottom: 40px;
   
   
 }
@@ -5492,4 +5497,12 @@ td.quantity{
 .team-members{
   margin:5px;
 }
-.main-header.header-2 .navbar-brand img {}
+.center-align{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.justify{
+  text-align: justify!important;
+}

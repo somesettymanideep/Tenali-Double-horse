@@ -1,31 +1,65 @@
-import React, { useEffect } from 'react';
-import $ from 'jquery';
+import React, { Component } from 'react';
+import Slider from 'react-slick';
 
-const Reviews = () => {
-  useEffect(() => {
-    
-    $('.youtube-carousel').slick({
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-      nextArrow: '<button type="button" class="slick-next">Next</button>',
-    });
+const videoUrls = [
+  "https://www.youtube.com/embed/9UgO7WPugAA",
+  "https://www.youtube.com/embed/9UgO7WPugAA",
+  "https://www.youtube.com/embed/9UgO7WPugAA",
+  // Add more YouTube video URLs here
+];
 
-    // Clean up the carousel on component unmount
-    return () => {
-      $('.youtube-carousel').slick('unslick');
+class Reviews extends Component {
+  render() {
+    const settings = {
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: false,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
     };
-  }, []);
 
-  return (
-    <div className="youtube-carousel">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/video1" title="Video 1"></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/video2" title="Video 2"></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/video3" title="Video 3"></iframe>
-     
-    </div>
-  );
-};
+    return (
+      <div className="section">
+        <div className="container">
+          <h2 className="title text-center mb-5">We are also available on</h2>
+          <div className="container">
+            <Slider className="gallery-slider row" {...settings}>
+              {videoUrls.map((url, index) => (
+                <div key={index} className="embed-responsive embed-responsive-4by3">
+                  <iframe
+                    title={`Video ${index + 1}`}
+                    width="100%"
+                    height="100%"
+                    src={url}
+                    className="embed-responsive-item"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              ))}
+            </Slider>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
 
 export default Reviews;

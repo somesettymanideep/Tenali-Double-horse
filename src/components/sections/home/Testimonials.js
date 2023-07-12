@@ -36,7 +36,7 @@ class Testimonials extends Component {
             ]
         }
         return (
-            <section className="section testimonials">
+            <section className="section testimonials  pt-0">
                 <div className="container">
                     <div className="section-title-wrap section-header text-center">
                         <h5 className="custom-primary">Our Backbone</h5>
@@ -55,9 +55,9 @@ class Testimonials extends Component {
                                     </div>
                                     <div className="ct-testimonial-content">
                                         <i className="flaticon-left-quote" />
-                                        <p>{item.comment}</p>
+                                        <p className='justify'>{item.comment}</p>
                                         <h5>{item.name}</h5>
-                                        <span>{item.desig}</span>
+                                        {/* <span>{item.desig}</span> */}
                                     </div>
                                 </div>
                             </div>

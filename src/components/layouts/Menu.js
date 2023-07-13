@@ -38,14 +38,14 @@ class Menu extends Component {
                                     <div className="col-lg-12">
                                         <div className="mega-menu-item d-flex">
                                             <div className='col-lg-7'>
-                                            <h5>Special Edition Eco Pack</h5>
+                                            <h5>New Product</h5>
                                             <p>
-                                                Round Urad gota is the choicest by procuring from the best farms & best fields in the country
+                                            Fine-textured semolina used to make traditional South Indian idlis, offering a fluffy and nutritious breakfast option
                       </p>
-                                            <a href={"https://tenalidoublehorse.com/product/urad-gota-1-2-kg-eco-pack-of-2/"} className="btn-custom secondary shadow-none btn-sm">Purchase</a>
+                                            <a href={"/menu-v1"} className="btn-custom secondary shadow-none btn-sm">Purchase</a>
                                             </div>
                                             <div className='col-lg-3'>
-                                            <a href={"https://tenalidoublehorse.com/product/urad-gota-1-2-kg-eco-pack-of-2/"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Eco-Pack-300x300.png"} alt="pizza" /></a>
+                                            <a href={"/menu-v1"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/tenali-double-horse-idly-rava-300x300.png"} alt="pizza" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -68,42 +68,43 @@ class Menu extends Component {
                     </div>*/}
                                     <div className="col-12 mega-menu-promotion-wrapper">
                                         <div className="row">
+                                        <div className="col-3">
+                                                <div className="mega-menu-promotion">
+                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/tenali-double-horse-idly-rava-300x300.png"} alt="pizza" /></a>
+                                                    <div className="mega-menu-promotion-text">
+                                                        <h4><a href={"/menu-v1"}>Idly Rava</a></h4>
+                                                        <span>₹184</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div className="col-3">
                                                 <div className="mega-menu-promotion">
-                                                    <a href={"https://tenalidoublehorse.com/product/urad-dal-1kg/"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Gota-300x300.png"} alt="pizza" /></a>
+                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Gota-300x300.png"} alt="pizza" /></a>
                                                     <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"https://tenalidoublehorse.com/product/urad-dal-1kg/"}>Urad Gota</a></h4>
+                                                        <h4><a href={"/menu-v1"}>Urad Gota</a></h4>
                                                         <span>₹165</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-3">
                                                 <div className="mega-menu-promotion">
-                                                    <a href={"https://tenalidoublehorse.com/product/moong-dal-1kg/"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-horse-Moong-Dal-300x300.png"} alt="pizza" /></a>
+                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-horse-Moong-Dal-300x300.png"} alt="pizza" /></a>
                                                     <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"https://tenalidoublehorse.com/product/moong-dal-1kg/"}>Moong Dall </a></h4>
+                                                        <h4><a href={"/menu-v1"}>Moong Dall </a></h4>
                                                         <span>₹152</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-3">
                                                 <div className="mega-menu-promotion">
-                                                    <a href={"https://tenalidoublehorse.com/product/toor-dal-1kg/"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Toor-Dall-300x300.png"} alt="pizza" /></a>
+                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Toor-Dall-300x300.png"} alt="pizza" /></a>
                                                     <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"https://tenalidoublehorse.com/product/toor-dal-1kg/"}>Toor Dall</a></h4>
+                                                        <h4><a href={"/menu-v1"}>Toor Dall</a></h4>
                                                         <span>₹150</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-3">
-                                                <div className="mega-menu-promotion">
-                                                    <a href={"https://tenalidoublehorse.com/product/urad-gota-1-2-kg-eco-pack-of-2/"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Eco-Pack-300x300.png"} alt="pizza" /></a>
-                                                    <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"https://tenalidoublehorse.com/product/urad-gota-1-2-kg-eco-pack-of-2/"}>Eco pack</a></h4>
-                                                        <span>₹184</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

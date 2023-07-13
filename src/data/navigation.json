@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "linkText": "Home page ",
+        "linkText": "Home",
         "link":"/",
         "child": false,
         "submenu": [

@@ -42,7 +42,7 @@ class Testimonials extends Component {
                         <h5 className="custom-primary">Our Backbone</h5>
                         <h2 className="title">Customer Testimonials</h2>
                         <p className="subtitle">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        Discover the excellence and delight that our customers can't stop talking about. Experience it for yourself and become one of our satisfied customers today!
                         </p>
                     </div>
                     <Slider className="ct-testimonials-slider" {...settings} ref={c => (this.slider = c)}>

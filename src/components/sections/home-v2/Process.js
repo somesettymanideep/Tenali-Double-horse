@@ -6,22 +6,17 @@ const processpost = [
     {
         icon: "flaticon-online-booking",
         title: "Superior Quality",
-        text: "There are many variations of passages of Lorem Ipsum available"
+        text: "delivering excellence in every bite,High-quality standards in terms of freshness, purity, and taste."
     },
     {
-        icon: "flaticon-calories",
-        title: "Eco-Friendly Practices",
-        text: "There are many variations of passages of Lorem Ipsum available"
-    },
-    {
-        icon: "flaticon-delivery-man",
+        icon: "flaticon-medal",
         title: "Trusted Brand",
-        text: "There are many variations of passages of Lorem Ipsum available"
+        text: "Building trust with our customers by consistently delivering exceptional quality and reliability."
     },
     {
-        icon: "flaticon-food-tray",
+        icon: "flaticon-grocery",
         title: "High Nutritional Value",
-        text: "There are many variations of passages of Lorem Ipsum available"
+        text: "Abundant nutrients, vitamins, minerals for optimal health through our products"
     }
 ]
 
@@ -33,16 +28,16 @@ class Process extends Component {
                     <h5 className="custom-primary">Why Choose </h5>
                     <h2 className="title">Tenali Double horse</h2>
                     <p className="subtitle">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    Tenali Double Horse industry-leading all-in-one platform makes it simple to set a healthy breakfast regime. To provide the best quality Urad Gota and Urad Dall near you.
                         </p>
                 </div>
                 <div className="row infographics-2">
                     {processpost.map((item, i) => (
-                        <div key={i} className="col-lg-3 col-md-6 col-sm-6">
+                        <div key={i} className="col-lg-4 col-md-6 col-sm-6">
                             <div className="ct-infographic-item">
                                 <i className={item.icon} />
                                 <h4>{item.title}</h4>
-                                <p>{item.text}</p>
+                                <p style={{textAlign:'justify'}}>{item.text}</p>
                             </div>
                         </div>
                     ))}

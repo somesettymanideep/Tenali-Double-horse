@@ -5388,6 +5388,11 @@ td.quantity{
 }
 .social-media{
   display:flex;
+  /* justify-content:center; */
+
+}
+.social-media-actives{
+  display:flex;
   justify-content:center;
 
 }

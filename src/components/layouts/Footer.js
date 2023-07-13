@@ -58,11 +58,28 @@ class Footer extends Component {
                             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-widget">
                                 <h5 className="widget-title">Social Media</h5>
                                 <ul className="social-media">
-                                    <li> <Link to=" " className="facebook"> <i className="fab fa-facebook-f" /> </Link> </li>
-                                    <li> <Link to=" " className="pinterest"> <i className="fab fa-pinterest-p" /> </Link> </li>
-                                    <li> <Link to=" " className="google"> <i className="fab fa-google" /> </Link> </li>
-                                    <li> <Link to="" className="twitter"> <i className="fab fa-twitter" /> </Link> </li>
-                                </ul>
+  <li>
+    <a target="_blank" rel="noopener noreferrer"  href= {"https://www.facebook.com/tenalidoublehorse"} className="facebook">
+      <i className="fab fa-facebook-f" />
+    </a>
+  </li>
+  <li>
+    <a  target="_blank" rel="noopener noreferrer" href={"https://www.youtube.com/c/TenaliDoubleHorse"} className="youtube">
+      <i className="fab fa-youtube" />
+    </a>
+  </li>
+  <li>
+    <a  target="_blank" rel="noopener noreferrer" href={"https://www.instagram.com/tenalidoublehorse/"} className="youtube">
+      <i className="fab fa-instagram" />
+    </a>
+  </li>
+  <li>
+    <a  target="_blank" rel="noopener noreferrer" href={"https://twitter.com/i/flow/login?redirect_after_login=%2Ftnldoublehorse"} className="twitter">
+      <i className="fab fa-twitter" />
+    </a>
+  </li>
+</ul>
+
                                 <div className="footer-offer">
                                     <p>Signup and get exclusive offers and coupon codes</p>
                                     <Link to=" " className="btn-custom btn-sm shadow-none">Sign Up</Link>

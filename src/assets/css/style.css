@@ -4711,7 +4711,7 @@ td.quantity{
   }
 }
 
-@media(max-width: 1199px){
+@media(max-width: 1499px){
   .banner .slick-arrow,
   .category-section .slick-arrow{
     width: 40px;

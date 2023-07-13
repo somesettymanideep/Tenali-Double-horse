@@ -9,7 +9,7 @@
             "mozarella": 1000,
             "price": 185.00,
             "discount":"",
-            "img": "assets/img/prods/3.png",
+            "img": "assets/img/prods/tenali-double-horse-top-banner-moong-dall-600x600.png",
             "category": "Specialty",
             "offer": false
         },
@@ -22,7 +22,7 @@
             "mozarella": 1000,
             "price": 154.00,
             "discount":"",
-            "img": "assets/img/prods/5.png",
+            "img": "assets/img/prods/tenali-double-horse-top-banner-urad-gota-600x600.png",
             "category": "Ham & Cheese",
             "offer": false
         }

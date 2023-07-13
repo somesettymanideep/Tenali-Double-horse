@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Products from '../home/Products';
 import Testimonials from '../home/Testimonials';
-import Banner from './Banner';
+import Banner from '../home/Banner';
 import Categories from './Categories';
 import Newsletter from './Newsletter';
 import Offer from './Offer';
@@ -32,14 +32,14 @@ class Content extends Component {
                 <Categories className="mb-2" />
                 <Paragraph/>
                 
-                <div className="section pt-0 products-section">
+                {/* <div className="section pt-0 products-section">
                     <Products />
-                </div>
+                </div> */}
                 
                 <Benefits/>
                 <Testimonials/>
                 {/* <Reviews/> */}
-                <Partners/>
+                {/* <Partners/> */}
                 <Newsletter />
             </Fragment>
         );

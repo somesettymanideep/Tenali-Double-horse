@@ -2248,11 +2248,12 @@ table img{
   max-width: 100%;
   background-size: cover;
   background-position: center;
-  min-height: 800px;
+  min-height: 600px;
   padding: 120px 0;
 }
 .banner.banner-1 .banner-inner{
-  padding: 220px 0 70px;
+  padding: 80px 0 70px;
+ 
 }
 
 .banner.banner-1 .slick-arrow{
@@ -4128,7 +4129,7 @@ td.quantity{
   max-width: 300px;
 }
 .imgs-wrapper img:nth-child(1){
-  top: 150px;
+  /* top: 150px; */
   left: -100px;
 }
 .imgs-wrapper img:nth-child(2){
@@ -4777,7 +4778,7 @@ td.quantity{
   .ct-category.category-2 img{
     position: absolute;
     right: 20px;
-    bottom: -40px;
+    bottom: -24px;
     width: 370px;
   }
 
@@ -4855,7 +4856,7 @@ td.quantity{
     padding: 60px 0 30px;
   }
   .banner.banner-1 .banner-inner{
-    padding: 160px 0 40px;
+    padding: 30px 0 40px;
     min-height: auto;
   }
   .banner .subtitle{

@@ -5,7 +5,7 @@ class Benefits extends Component {
     render() {
         return (
             
-            <div className="ct-categories container  mb-5">
+            <div className="ct-categories container mt-5 pt-3 mb-5">
                 {/* Category Start */}
                 <div className="ct-category">
                     <div className="ct-category-bg" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories-lg/4.jpg)" }} />

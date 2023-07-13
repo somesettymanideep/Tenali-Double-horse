@@ -47,9 +47,9 @@ class Process extends Component {
                         </div>
                     ))}
                 </div>
-                <div className="section-btn">
+                {/* <div className="section-btn">
                     <Link to="/menu-v1" className="btn-custom">Order Online</Link>
-                </div>
+                </div> */}
             </div>
         );
     }

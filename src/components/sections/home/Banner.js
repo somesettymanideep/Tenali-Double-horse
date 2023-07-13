@@ -60,14 +60,14 @@ class Banner extends Component {
             ]
         }
         return (
-            <div className="banner banner-1 bg-cover">
+            <div className="banner banner-1 bg-cover ">
                 <div className="imgs-wrapper">
                     <img src={process.env.PUBLIC_URL + "/assets/img/veg/11.png"} alt="veg" className="d-none d-lg-block" />
                 </div>
                 <Slider className="banner-slider" {...settings} asNavFor={this.state.nav2} ref={slider => (this.slider1 = slider)}>
                     {bannerpost.map((item, i) => (
                         <div key={i} className="banner-item">
-                            <div className="banner-inner">
+                            <div className="banner-inner " >
                                 <div className="container">
                                     <div className="row align-items-center">
                                         <div className="col-xl-6 col-lg-6">
@@ -83,7 +83,7 @@ class Banner extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="banner-icon">
-                                                    <i className="flaticon-cheese" />
+                                                    <i className="flaticon-shopping-bag" />
                                                     <div className="banner-icon-body">
                                                         <h5>{item.mozarella}g</h5>
                                                         <span>Mozarella</span>
@@ -92,7 +92,7 @@ class Banner extends Component {
                                             </div>
                                             <div className="banner-controls">
                                                 <Link to="/menu-v1" className="btn-custom primary">Order <i className="flaticon-shopping-bag" /> </Link>
-                                                <h4>${new Intl.NumberFormat().format((item.price).toFixed(2))}</h4>
+                                                <h4>₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</h4>
                                             </div>
                                         </div>
                                         <div className="col-xl-6 col-lg-6">
@@ -104,9 +104,9 @@ class Banner extends Component {
                         </div>
                     ))}
                 </Slider>
-                <div className="banner-slider-nav">
+                {/* <div className="banner-slider-nav">
                     <div className="container">
-                        {/* Arrow */}
+                       
                         <i className="slider-prev fas fa-arrow-left slick-arrow" onClick={this.previous} />
                         <Slider className="banner-slider-nav-inner" {...settingsthumb} asNavFor={this.state.nav1} ref={slider => (this.slider2 = slider)}>
                             {bannerpost.map((item, i) => (
@@ -125,10 +125,10 @@ class Banner extends Component {
                                 </div>
                             ))}
                         </Slider>
-                        {/* Arrow */}
+                        
                         <i className="slider-next fas fa-arrow-right slick-arrow" onClick={this.next} />
                     </div>
-                </div>
+                </div> */}
             </div>
         );
     }

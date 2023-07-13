@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Paragraph extends Component {
     render() {
         return (
-            <div className="section light-bg gap">
+            <div className="section light-bg mt-5 mb-5 ">
                 <div className="container">
                     <div className="row align-items-center ">
                         <div className="col-lg-6 mb-lg-30">

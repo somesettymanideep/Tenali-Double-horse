@@ -2,14 +2,14 @@
     "home": [
         {
             "id": 1,
-            "title": "Authentic Indian",
-            "subtitle": "Urad Gota with Golden Crunch",
+            "title": "Experience the Perfect",
+            "subtitle": "Fluffy Idlis with Our Premium Idly Rava",
             "shortdesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
             "calories": 480,
-            "mozarella": 1000,
+            "mozarella": 3000,
             "price": 185.00,
             "discount":"",
-            "img": "assets/img/prods/tenali-double-horse-top-banner-moong-dall-600x600.png",
+            "img": "assets/img/prods-sm/Tenali-Double-Horse-Urad-Gota-300x300.png",
             "category": "Specialty",
             "offer": false
         },

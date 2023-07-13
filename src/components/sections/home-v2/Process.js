@@ -31,7 +31,7 @@ class Process extends Component {
             <div className="container  mb-5">
                 <div className="section-title-wrap section-header text-center ">
                     <h5 className="custom-primary">Why Choose </h5>
-                    <h2 className="title">TenaliDoublehorse</h2>
+                    <h2 className="title">Tenali Double horse</h2>
                     <p className="subtitle">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>

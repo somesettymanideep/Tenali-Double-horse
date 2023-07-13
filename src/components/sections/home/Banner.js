@@ -62,7 +62,7 @@ class Banner extends Component {
         return (
             <div className="banner banner-1 bg-cover ">
                 <div className="imgs-wrapper">
-                    <img src={process.env.PUBLIC_URL + "/assets/img/veg/11.png"} alt="veg" className="d-none d-lg-block" />
+                    <img src={process.env.PUBLIC_URL + "/assets/img/veg/leaf.png"} alt="veg" className="d-none d-lg-block" />
                 </div>
                 <Slider className="banner-slider" {...settings} asNavFor={this.state.nav2} ref={slider => (this.slider1 = slider)}>
                     {bannerpost.map((item, i) => (

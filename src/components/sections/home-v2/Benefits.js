@@ -12,7 +12,7 @@ class Benefits extends Component {
                     <div className="ct-category-content">
                         <div className="ct-category-content-inner">
                             <div className="section-title-wrap section-header">
-                                <h5 className="custom-primary">TenaliDoublehorse</h5>
+                                <h5 className="custom-primary">Tenali Double horse</h5>
                                 <h2 className="title">Experience the Finest Quality Pulses , Dalls and Sunnundalu from Tenali Double Horse</h2>
                                 <p className="subtitle">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy

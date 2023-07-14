@@ -5264,7 +5264,7 @@ td.quantity{
   }
   .rules-container{
     width:100%;
-    margin:10px;
+    /* margin:10px; */
     padding:10px;
   
     display:flex;
@@ -5290,7 +5290,7 @@ td.quantity{
     text-align: center!important;
     background-color:white!important;
     border: radius 10px !important;;
-    border: 1px solid!important;
+    /* border: 1px solid!important; */
     border: color #d3d3d3 !important;;
     
   }
@@ -5308,6 +5308,9 @@ td.quantity{
 @media (max-width: 575px){
   .modal-lg{
     max-width: 500px;
+  }
+  .button-gmail{
+    width: 100%!important;
   }
   .search-form-wrapper form{
     width: 100%;
@@ -5452,6 +5455,7 @@ td.quantity{
   
   display:flex;
   justify-content:space-evenly;
+  flex-wrap: wrap;
   align-items:center;
 }
 .heading{

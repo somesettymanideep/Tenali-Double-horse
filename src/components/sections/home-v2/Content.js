@@ -18,7 +18,7 @@ class Content extends Component {
         return (
             <Fragment>
                 <Banner />
-                <div className='activites '>
+                <div className='activites mb-4'>
                     <h2 className='title text-center'>Notable Activities</h2>
                     <div className='social-media-actives'>
                         <img src={process.env.PUBLIC_URL + "/assets/img/misc/aha.png"} className="aha" alt="aha"/>

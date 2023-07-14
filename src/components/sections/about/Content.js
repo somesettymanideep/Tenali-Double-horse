@@ -10,9 +10,11 @@ class Content extends Component {
     render() {
         return (
             <Fragment>
-                <Aboutus />
+                <Offer  style={{ marginBottom: 0 }} />
                 <Rules/>
-                <Offer/>
+                {/* <Aboutus /> */}
+                
+                
                 <div className="enquires">
                     <h1 className="heading">For export enquires mail us</h1>
                     <button className="button-gmail">exports@tenalidoublehorse.com</button>

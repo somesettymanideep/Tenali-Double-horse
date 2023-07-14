@@ -2236,7 +2236,7 @@ table img{
   display: block;
   padding: 0;
   min-height: auto;
-  background-image: url(/assets/img/banner/background-image.png)!important;
+  background-image: url(/assets/img/banner/tenali-double-horse-background-image-1920x600.png)!important;
 
 }
 .banner .slick-list,
@@ -4125,7 +4125,7 @@ td.quantity{
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 .imgs-wrapper img{
   position: absolute;
@@ -5405,7 +5405,7 @@ td.quantity{
 }
 .rules-container{
   width:100%;
-  margin:10px;
+  /* margin:10px; */
   padding:10px;
 
   display:flex;
@@ -5414,12 +5414,15 @@ td.quantity{
 .Legacy-Container{
   margin:20px;
   width:50%;
-  padding:20px;
   text-align:center;
-  background-color:white;
   border-radius:10px;
   border:1px solid;
   border-color:#d3d3d3;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 35px 0px;
+  box-shadow: 0 3px 12px 0 rgba(25,31,33,.1);
   
   
 }
@@ -5427,12 +5430,15 @@ td.quantity{
 .principles-Container{
   margin:20px;
   width:50%;
-  padding: 20px;
   text-align: center;
-  background-color:white;
   border-radius:10px;
   border: 1px solid;
   border-color:#d3d3d3;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 35px 0px;
+  box-shadow: 0 3px 12px 0 rgba(25,31,33,.1);
   
 }
 

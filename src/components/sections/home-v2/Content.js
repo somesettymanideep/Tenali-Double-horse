@@ -9,7 +9,7 @@ import Paragraph  from './Paragraph';
 import Process from './Process';
 import Partners from './Partners';
 import Benefits from './Benefits';
-// import Reviews from './Reviews';
+// import MyComponent from './MyComponent';
 
 
 
@@ -38,7 +38,7 @@ class Content extends Component {
                 
                 <Benefits/>
                 <Testimonials/>
-                {/* <Reviews/> */}
+                {/* <MyComponent/> */}
                 {/* <Partners/> */}
                 <Newsletter />
             </Fragment>

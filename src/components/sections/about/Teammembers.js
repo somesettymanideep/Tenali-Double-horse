@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 class Teammembers extends Component {
     render() {
         return (
-            <div className="team-members m-5 p-3">
+            <div className="team-members light-bg  p-5">
                 
                       
                             <div className="content-container text-center">

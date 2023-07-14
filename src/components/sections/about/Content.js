@@ -5,6 +5,7 @@ import Infographics from "../home-v3/Infographics";
 import Newsletter from "../home-v2/Newsletter";
 import Teammembers from './Teammembers';
 import Rules from './Rules';
+import MyComponent from '../home-v2/MyComponent';
 
 class Content extends Component {
     render() {
@@ -19,7 +20,9 @@ class Content extends Component {
                     <h1 className="heading">For export enquires mail us</h1>
                     <button className="button-gmail">exports@tenalidoublehorse.com</button>
                 </div>
+              
                 <Infographics/>
+                <MyComponent/>
                 <Teammembers/>
                 <Newsletter/>
             </Fragment>

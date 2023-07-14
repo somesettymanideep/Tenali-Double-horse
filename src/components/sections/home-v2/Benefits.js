@@ -8,7 +8,11 @@ class Benefits extends Component {
             <div className="ct-categories container mt-5 pt-3 mb-5">
                 {/* Category Start */}
                 <div className="ct-category">
-                    <div className="ct-category-bg" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories-lg/tenali-double-horse-benefits.png)" }} />
+                    {/* <div className="ct-category-bg img-responsive" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories-lg/tenali-double-horse-benefits.png)" }} /> */}
+                    <div className="col-lg-6 mb-lg-30 ct-single-img-wrapper">
+                            <img src={process.env.PUBLIC_URL + "/assets/img/categories-lg/tenali-double-horse-benefits.png"} alt="img" />
+                           
+                        </div>
                     <div className="ct-category-content">
                         <div className="ct-category-content-inner">
                             <div className="section-title-wrap section-header">

@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 class Offer extends Component {
     render() {
         return (
-            <div className="section light-bg pb-3 mt-3 mb-5  ">
+            <div className="section light-bg pb-5 mt-3 mb-5  ">
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-6 mb-lg-30 ">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/Eco Pack.jpg"}  alt="img" className='shadow-sm  mb-5 bg-white rounded' />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/Eco Pack.jpg"}  alt="img" className='shadow-sm   bg-white rounded' />
                         </div>
                         <div className="col-lg-6">
-                            <div className="section-title-wrap mr-lg-30 mt-4">
+                            <div className="section-title-wrap mr-lg-30 mt-lg-4">
                                 <h5 className="custom-primary">About</h5>
                                 <h2 className="title"> Tenali Double Horse </h2>
                                 <p className="subtitle" style={{textAlign:'justify'}}>

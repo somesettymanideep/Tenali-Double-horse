@@ -4,22 +4,22 @@ import Timeline from './Timeline';
 class MyComponent extends React.Component {
   timelineData = [
     {
-      year: '2018',
+      year: '2005',
       title: 'Web Designer',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
     },
     {
-      year: '2017',
-      title: 'Web Developer',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
-    },
-    {
-      year: '2016',
+      year: '2010',
       title: 'Web Developer',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
     },
     {
       year: '2015',
+      title: 'Web Developer',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
+    },
+    {
+      year: '2020',
       title: 'Web Developer',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
     },

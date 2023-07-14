@@ -60,7 +60,7 @@ class Banner extends Component {
             ]
         }
         return (
-            <div className="banner banner-1 bg-cover ">
+            <div className="banner banner-1 bg-cover "  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/Tenali-Double-Horse-Background-image.jpg)" }}>
                 <div className="imgs-wrapper">
                     <img src={process.env.PUBLIC_URL + "/assets/img/veg/leaf.png"} alt="veg" className="d-none d-lg-block" />
                 </div>

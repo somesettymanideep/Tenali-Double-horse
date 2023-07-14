@@ -20,7 +20,7 @@ class Hometwo extends Component {
                 <div style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/Tenali-Double-Horse-Background-image.jpg)" }}>
                 <Header/>
                     <Content />
-                    <Footer footer={{ style: "ct-footer", logo: "assets/img/transparent-logo.png" }} />
+                    <Footer className="footer-with-border"   footer={{ style: "ct-footer", logo: "assets/img/transparent-logo.png" }} />
                 </div>
             </Fragment>
         );

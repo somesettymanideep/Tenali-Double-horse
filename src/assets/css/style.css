@@ -5416,8 +5416,8 @@ td.quantity{
   width:50%;
   text-align:center;
   border-radius:10px;
-  border:1px solid;
-  border-color:#d3d3d3;
+  /* border:1px solid;
+  border-color:#d3d3d3; */
   background-color: #f9f9f9;
   border-radius: 8px;
   padding: 30px;

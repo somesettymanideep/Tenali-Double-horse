@@ -70,7 +70,7 @@ class Products extends Component {
                                     <div className="product-desc">
                                         <div>
                                         <h4> <Link to={"/menu-item-v1/" + item.id}>{item.name}</Link> </h4>
-                                        <p >{item.shortdesc}</p>
+                                        <p>{item.shortdesc}</p>
                                         </div>
                                         <div>
                                         <p className="product-price">₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</p>

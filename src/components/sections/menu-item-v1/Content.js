@@ -74,7 +74,7 @@ class Content extends Component {
                                     {/* Variations */}
                                     <div className="customize-variations">
                                         <div className="customize-size-wrapper">
-                                            <h5>Size: </h5>
+                                            <h5>Weight: </h5>
                                             {item.sizes.map((item, i) => (
                                                 <div key={i} className={item.state ? 'customize-size active' : 'customize-size'}>
                                                     {item.size}"
@@ -94,7 +94,7 @@ class Content extends Component {
                                                                     <input type={item.type} id={add.title + i} name={item.name} className="custom-control-input" />
                                                                     <label className="custom-control-label" htmlFor={add.title + i}>{add.title}</label>
                                                                 </div>
-                                                                <span>+{new Intl.NumberFormat().format((add.addprice).toFixed(2))}$</span>
+                                                                <span>{new Intl.NumberFormat().format((add.addprice).toFixed(2))}</span>
                                                             </div>
                                                         ))}
                                                     </div>

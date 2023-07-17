@@ -5,22 +5,22 @@ class MyComponent extends React.Component {
   timelineData = [
     {
       year: '2005',
-      title: 'Web Designer',
+      title: 'India',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
     },
     {
       year: '2010',
-      title: 'Web Developer',
+      title: 'Hyderabad',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
     },
     {
       year: '2015',
-      title: 'Web Developer',
+      title: 'USA',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
     },
     {
       year: '2020',
-      title: 'Web Developer',
+      title: 'UAE',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.',
     },
   ];

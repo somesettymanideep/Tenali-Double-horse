@@ -71,27 +71,27 @@ class Banner extends Component {
                                 <div className="container">
                                     <div className="row align-items-center">
                                         <div className="col-xl-6 col-lg-6">
-                                            <h1 className="title">{item.title}</h1>
-                                            <h4>{item.subtitle}</h4>
+                                            <h1 className="title animate-left">{item.title}</h1>
+                                            <h4 className='animate-left-delay'>{item.subtitle}</h4>
                                             <p className="subtitle">{item.shortdesc}</p>
                                             <div className="banner-icons-wrapper">
                                                 <div className="banner-icon">
-                                                    <i className="flaticon-calories" />
+                                                    <i className="fas fa-tint-slash" />
                                                     <div className="banner-icon-body">
-                                                        <h5>{item.calories}</h5>
-                                                        <span>Calories</span>
+                                                        <h5>No Added</h5>
+                                                        <span>Colours</span>
                                                     </div>
                                                 </div>
                                                 <div className="banner-icon">
-                                                    <i className="flaticon-shopping-bag" />
+                                                    <i className="fas fa-seedling" />
                                                     <div className="banner-icon-body">
-                                                        <h5>{item.mozarella}g</h5>
-                                                        <span>Weight</span>
+                                                        <h5>No Added</h5>
+                                                        <span>Preservatives</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="banner-controls">
-                                                <Link to="/menu-v1" className="btn-custom primary">Order <i className="flaticon-shopping-bag" /> </Link>
+                                                <Link  to={"/menu-item-v1/" + item.id} className="btn-custom primary">Read More  </Link>
                                                 <h4>₹{new Intl.NumberFormat().format((item.price).toFixed(2))}</h4>
                                             </div>
                                         </div>

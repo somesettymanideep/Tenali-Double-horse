@@ -80,7 +80,7 @@ class Content extends Component {
                                 <h2 className="title">Send us a Message </h2>
                                 <p className="subtitle">
                                 Contact us we love to talk with you more than you know! Just dial up and contact us. 
-          </p>
+                                  </p>
                             </div>
                             <form>
                                 <div className="row">

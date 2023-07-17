@@ -23,7 +23,7 @@ class Content extends Component {
               
                 <Infographics/>
                 <MyComponent/>
-                <Teammembers/>
+                {/* <Teammembers/> */}
                 <Newsletter/>
             </Fragment>
         );

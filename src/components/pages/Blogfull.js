@@ -21,7 +21,7 @@ class Blogfull extends Component {
                 <Header/>
                 <Breadcrumbs breadcrumb={{ pagename: pagelocation }} />
                 <Content/>
-                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/logo-light.png" }} />
+                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/transparent-logo.png" }} />
             </Fragment>
         );
     }

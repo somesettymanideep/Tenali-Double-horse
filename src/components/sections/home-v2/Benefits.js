@@ -17,7 +17,7 @@ class Benefits extends Component {
                         <div className="ct-category-content-inner">
                             <div className="section-title-wrap section-header">
                                 <h5 className="custom-primary">Tenali Double horse</h5>
-                                <h2 className="title">Experience the Finest Quality Pulses , Dalls and Sunnundalu from Tenali Double Horse</h2>
+                                <h2 className="title">Experience the Finest Quality Pulses , Dalls from Tenali Double Horse</h2>
                                 <p className="subtitle" style={{textAlign:'justify'}}>
                                 To provide the best quality Products, the team is committed to providing the highest quality products and services to our customers to satisfy their needs and expectations of quality, reliability, and timely delivery. 
           </p>

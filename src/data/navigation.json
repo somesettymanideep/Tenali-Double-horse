@@ -31,37 +31,23 @@
         "id": 2,
         "linkText": "About",
         "link":"/about",
-        "child": false,
+        "child": true,
         "submenu": [{
                 "id": 21,
-                "linkText": "Blog Archive",
-                "child": false,
-                "submenu": [{
-                        "id": 211,
-                        "linkText": "Grid View",
-                        "link": "/blog-grid"
-                    },
-                    {
-                        "id": 212,
-                        "linkText": "List View",
-                        "link": "/blog-list"
-                    },
-                    {
-                        "id": 213,
-                        "linkText": "Masonry",
-                        "link": "/blog-masonry"
-                    },
-                    {
-                        "id": 214,
-                        "linkText": "Full Width",
-                        "link": "/blog-full-width"
-                    }
-                ]
+                "linkText": "Our Company",
+                "link": "/about"
+               
             },
             {
                 "id": 22,
+                "link": "/Who-we-are",
+                "linkText": "Who We Are"
+            }
+            ,
+            {
+                "id": 23,
                 "link": "/blog-single/1",
-                "linkText": "Blog Single"
+                "linkText": "Where We Are"
             }
         ]
     },

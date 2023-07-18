@@ -26,15 +26,15 @@ class Benefits extends Component {
                             <div className="row">
                                 {pizzamenu.map((item, i) => (
                                     <div key={i} className="col-lg-6">
-                                        <div className="ct-mini-menu-item">
+                                        <div className="ct-mini-menu-item" style={{display:'flex'}}>
+                                            <div className="ct-mini-menu-bottom mr-lg-3" style={{fontSize:'25px'}}>
+                                            <i className={item.icon}  style={{color:'#ED4E53'}}/>
+                                            </div>
                                             <div className="ct-mini-menu-top">
                                                 <h5>{item.title}</h5>
-                                                {/* <div className="ct-mini-menu-dots" />
-                                                <span className="custom-primary">{new Intl.NumberFormat().format((item.price).toFixed(2))}$</span> */}
+                                               
                                             </div>
-                                            {/* <div className="ct-mini-menu-bottom">
-                                                <p>{item.shortdesc}</p>
-                                            </div> */}
+                                            
                                         </div>
                                     </div>
                                 ))}

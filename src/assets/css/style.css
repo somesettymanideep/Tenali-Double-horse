@@ -2801,7 +2801,7 @@ table img{
 
 /* 6.2. Mini Menu */
 .ct-mini-menu-item{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .ct-mini-menu-item .ct-mini-menu-top{
   display: -webkit-box;
@@ -2828,9 +2828,9 @@ table img{
 }
 .ct-mini-menu-item .ct-mini-menu-bottom{
   max-width: 500px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
-.ct-mini-menu-item .ct-mini-menu-bottom p{
+.ct-mini-menu-item .ct-mini-menu-bottom i{
   margin: 0;
 }
 
@@ -5451,7 +5451,7 @@ td.quantity{
   width:100%;
   background-color:#FCCC4C;
   padding:25px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   
   display:flex;
   justify-content:space-evenly;
@@ -5761,3 +5761,7 @@ td.quantity{
 .ssl:hover{box-shadow: 0 0 25px 0 rgba(20,27,201,.05);cursor: pointer;background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)}
 .database:hover{box-shadow: 0 0 25px 0 rgba(20,27,201,.05);cursor: pointer;background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)}
 
+/* edit item */
+.custom-control-label::before {
+  display:none!important;
+}

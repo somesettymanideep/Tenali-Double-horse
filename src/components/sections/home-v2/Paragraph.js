@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 class Paragraph extends Component {
@@ -36,7 +36,7 @@ class Paragraph extends Component {
                 <p className="subtitle" style={{ textAlign: 'justify' }}>
                   Pulses are Good Source of Iron. Pulses are also a strachy Food and add fibre to your meal. Eating a high diet fibre is asssociated with a reduced risk of Heart Disease and Type 2 Diabetes
                 </p>
-                <button onClick={this.handleShow} className="btn-custom">Read more</button>
+                <button onClick={this.handleShow} className="btn-custom">Download brochure</button>
                 <Modal show={show} onHide={this.handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Please Enter Details</Modal.Title>
@@ -65,12 +65,12 @@ class Paragraph extends Component {
             </Form>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={this.handleClose}>
+            <button className="btn-custom btn btn-sm" onClick={this.handleClose}>
               Close
-            </Button>
-            <Button variant="primary" onClick={this.handleClose}>
+            </button>
+            <button className="btn-custom btn btn-sm" onClick={this.handleClose}>
               Save Changes
-            </Button>
+            </button>
           </Modal.Footer>
         </Modal>
               </div>

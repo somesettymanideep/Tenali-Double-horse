@@ -6,7 +6,7 @@ class Founder extends Component {
             <div className="section light-bg pb-5  mb-5  ">
                 <div className="container">
                     <div className="row ">
-                    <div className="col-lg-6 mb-lg-30 ">
+                    <div className="col-lg-6 mb-lg-30 alignments">
                            
                             <div className="section-title-wrap mr-lg-3 mt-lg-2">
                                 <h5 className="custom-primary">Founder</h5>

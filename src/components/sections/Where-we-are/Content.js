@@ -82,7 +82,7 @@ class Content extends Component {
             <div className="section section-padding pagination-content">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-">
                             {/* Post Start */}
                             {this.state.loading === false ? renderitems : <Loader />}
                             {/* Post End */}
@@ -114,11 +114,7 @@ class Content extends Component {
                                 </ul> : ''}
                             {/* Pagination End */}
                         </div>
-                        {/* Sidebar Start */}
-                        <div className="col-lg-4">
-                            <Sidebar />
-                        </div>
-                        {/* Sidebar End */}
+                    
                     </div>
                 </div>
             </div>

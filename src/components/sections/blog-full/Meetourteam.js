@@ -4,7 +4,9 @@ import React, { Component } from 'react';
 class Meetourteam extends Component {
     render() {
         return (
-            <div class="container mb-5">
+            <div class="container mb-5 pb-3">
+                 <h5 className="custom-primary text-center">Meet the Masterminds</h5>
+                                <h2 className="title text-center">Shaping Our Vision</h2>
     
     <div class="row">
         <div class="col-md-4">

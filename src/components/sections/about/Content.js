@@ -16,12 +16,13 @@ class Content extends Component {
                 {/* <Aboutus /> */}
                 
                 
+                
+                <Infographics/>
                 <div className="enquires">
                     <h1 className="heading">For export enquires mail us</h1>
                     <button className="button-gmail">exports@tenalidoublehorse.com</button>
                 </div>
               
-                <Infographics/>
                 <MyComponent/>
                 {/* <Teammembers/> */}
                 <Newsletter/>

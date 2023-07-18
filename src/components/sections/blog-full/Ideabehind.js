@@ -10,7 +10,7 @@ class Ideabehind extends Component {
                         <div className="col-lg-6 mb-lg-30 ">
                             <img src={process.env.PUBLIC_URL + "/assets/img/misc/tenali-double-horse-factory-image.jpeg"}  alt="img" className='shadow-sm   bg-white rounded' />
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 alignments">
                             <div className="section-title-wrap mr-lg-30 mt-lg-2">
                                 <h5 className="custom-primary">Idea Behind</h5>
                                 <h2 className="title">Tenali Double horse</h2>

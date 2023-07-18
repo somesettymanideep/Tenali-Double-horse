@@ -65,7 +65,7 @@ class Content extends Component {
                                     {/* /Rating */}
                                     {/* Price */}
                                     <div className="price-wrapper">
-                                        <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}$</p>
+                                        <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
                                     </div>
                                     {/* /Price */}
                                     {/* Product Short Description */}
@@ -90,8 +90,8 @@ class Content extends Component {
                                                         <h5>{item.name}</h5>
                                                         {item.items.map((add, i) => (
                                                             <div key={i} className="customize-variation-item">
-                                                                <div className={"custom-control custom-" + item.type}>
-                                                                    <input type={item.type} id={add.title + i} name={item.name} className="custom-control-input" />
+                                                                <div className={"custom-control custom-" }>
+                                                                    {/* <input type={item.type} id={add.title + i} name={item.name} className="custom-control-input" /> */}
                                                                     <label className="custom-control-label" htmlFor={add.title + i}>{add.title}</label>
                                                                 </div>
                                                                 <span>{new Intl.NumberFormat().format((add.addprice).toFixed(2))}</span>

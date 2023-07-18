@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
 import Content from '../sections/blog-grid/Content';
 
-const pagelocation = 'Blog Grid'
+const pagelocation = 'Where we are'
 
 class Bloggrid extends Component {
     render() {
@@ -21,7 +21,7 @@ class Bloggrid extends Component {
                 <Header/>
                 <Breadcrumbs breadcrumb={{ pagename: pagelocation }} />
                 <Content tagId={this.props.match.params.tagId}/>
-                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/logo-light.png" }} />
+                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/transparent-logo.png" }} />
             </Fragment>
         );
     }

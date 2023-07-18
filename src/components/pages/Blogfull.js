@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
 import Content from '../sections/blog-full/Content';
 
-const pagelocation = 'Blog Full Width'
+const pagelocation = 'Who We are'
 
 class Blogfull extends Component {
     render() {

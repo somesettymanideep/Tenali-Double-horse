@@ -9,8 +9,8 @@ const Home = React.lazy(() => import("./components/pages/Home"));
 const Hometwo = React.lazy(() => import("./components/pages/Hometwo"));
 const Homethree = React.lazy(() => import("./components/pages/Homethree"));
 const Homefour = React.lazy(() => import("./components/pages/Homefour"));
-const Bloggrid = React.lazy(() => import("./components/pages/Bloggrid"));
-const Bloglist = React.lazy(() => import("./components/pages/Bloglist"));
+const Bloggrid = React.lazy(() => import("./components/pages/Whereweare"));
+const Whereweare = React.lazy(() => import("./components/pages/Whereweare"));
 const Blogmasonry = React.lazy(() => import("./components/pages/Blogmasonry"));
 const WhoWeare = React.lazy(() => import("./components/pages/Blogfull"));
 const Blogsingle = React.lazy(() => import("./components/pages/Blogsingle"));
@@ -48,7 +48,7 @@ function App() {
           <Route path="/home-v4" component={Homefour} />
           <Route path="/blog-grid" exact component={Bloggrid} />
           <Route path="/blog/tag/:tagId" exact component={props => (<Bloggrid {...props} key={window.location.pathname} />)} />
-          <Route path="/blog-list" component={Bloglist} />
+          <Route path="/Where-we-are" component={Whereweare} />
           <Route path="/blog-masonry" component={Blogmasonry} />
           <Route path="/Who-we-are" component={WhoWeare} />
           <Route path="/blog-single/:id" exact component={props => (<Blogsingle {...props} key={window.location.pathname} />)} />

@@ -19,7 +19,7 @@ class Founder extends Component {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                        <img src={process.env.PUBLIC_URL + "/assets/img/misc/tenali-double-horse-factory-image.jpeg"}  alt="img" className='shadow-sm   bg-white rounded' />
+                        <img src={process.env.PUBLIC_URL + "/assets/img/founder.png"}  alt="img" className='shadow-sm   bg-white rounded' />
                         </div>
                         
                     </div>

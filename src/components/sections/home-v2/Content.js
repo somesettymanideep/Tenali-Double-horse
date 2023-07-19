@@ -9,6 +9,7 @@ import Paragraph  from './Paragraph';
 import Process from './Process';
 import Partners from './Partners';
 import Benefits from './Benefits';
+import Greatplacetowork from '../blog-full/Greatplacetowork';
 // import MyComponent from './MyComponent';
 
 
@@ -41,6 +42,7 @@ class Content extends Component {
                 {/* <MyComponent/> */}
                 {/* <Partners/> */}
                 <Newsletter />
+                <Greatplacetowork/>
             </Fragment>
         );
     }

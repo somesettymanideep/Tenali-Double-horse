@@ -8,7 +8,7 @@ class Ideabehind extends Component {
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-6 mb-lg-30 ">
-                            <img src={process.env.PUBLIC_URL + "/assets/img/misc/tenali-double-horse-factory-image.jpeg"}  alt="img" className='shadow-sm   bg-white rounded' />
+                            <img src={process.env.PUBLIC_URL + "/assets/img/founder.png"}  alt="img" className='shadow-sm   bg-white rounded' />
                         </div>
                         <div className="col-lg-6 alignments">
                             <div className="section-title-wrap mr-lg-30 mt-lg-2">

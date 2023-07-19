@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import products from "../../../data/product.json";
 import productcategory from "../../../data/productcategory.json";
 
-class Categories extends Component {
+class Menuitems extends Component {
     constructor(props) {
         super(props);
         this.next = this.next.bind(this);
@@ -31,7 +31,9 @@ class Categories extends Component {
             }]
         }
         return (
-            <div className="section pt-0 pb-0 category-section">
+            <div className="section pt-0 pb-0 category-section light-pic">
+                {/* <h5 className="custom-primary text-center">Nourishing Goodness</h5>
+                    <h2 className="title text-center mb-5">Discover Our Premium Dals & Pulses!</h2> */}
                 <div className="container mb-3">
                     {/* Arrow */}
                     <i className="slider-prev fas fa-arrow-left slick-arrow" onClick={this.previous} />
@@ -64,4 +66,4 @@ class Categories extends Component {
     }
 }
 
-export default Categories;
+export default Menuitems;

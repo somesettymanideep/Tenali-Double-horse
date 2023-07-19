@@ -4,21 +4,24 @@ import Banner from './Banner';
 import Categories from './Categories';
 import Cta from './Cta';
 import Instagram from './Instagram';
-import Products from './Products';
-import Testimonials from './Testimonials';
+import Productcards from '../blog-grid/Productcards';
+import Stats from './Stats';
+import Menuitems from '../home-v2/Categories';
 
 class Content extends Component {
     render() {
         return (
             <Fragment>
                 <Banner />
-                <Aboutus />
-                <Categories />
-                <div className="section products-section">
-                    <Products />
-                </div>
+                <Menuitems/>
+                <Productcards/>
+                <Stats/>
+                
+                
+               
+                
                 <Cta />
-                <Testimonials />
+                
                 <Instagram />
             </Fragment>
         );

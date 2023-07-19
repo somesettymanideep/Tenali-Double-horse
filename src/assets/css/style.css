@@ -2236,7 +2236,7 @@ table img{
   display: block;
   padding: 0;
   min-height: auto;
-  background-image: url(/assets/img/banner/tenali-double-horse-background-image-1920x600.png)!important;
+  background-image: url(/assets/img/banner/four.png)!important;
 
 }
 .banner .slick-list,
@@ -2837,6 +2837,16 @@ table img{
 /* 6.3. Categories */
 .category-section .container{
   position: relative;
+ 
+  
+  
+}
+.category-section{
+  background-image: url(/assets/img/categories/two-bg.png)!important;
+  min-height: auto;
+  background-size: 100%;
+  /* object-fit: contain!important; */
+  width:100%!important;
 }
 .ct-category{
   position: relative;
@@ -2897,14 +2907,14 @@ table img{
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #f9f9f9;
+  background-color:transparent!important;
   
   
   border-radius: 8px;
   padding: 30px;
   margin: 35px 15px;
-  -webkit-box-shadow: 0 3px 12px 0 rgba(25,31,33,.1);
-          box-shadow: 0 3px 12px 0 rgba(25,31,33,.1);
+  /* -webkit-box-shadow: 0 3px 12px 0 rgba(25,31,33,.1);
+          box-shadow: 0 3px 12px 0 rgba(25,31,33,.1); */
 }
 .ct-category.category-2::before{
   display: none;
@@ -5764,4 +5774,30 @@ td.quantity{
 /* edit item */
 .custom-control-label::before {
   display:none!important;
+}
+
+/* cards */
+.card{
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(rgba(247, 142, 175, 0.1), #fff);
+
+}
+.black{
+  background-image: -webkit-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+}
+.white{
+  background-image: -webkit-linear-gradient(#fff7ef, #fff);
+}
+.yellow{
+  background-image: -webkit-linear-gradient(rgba(253, 197, 11, 0.1), #fff);
+}
+
+.statstics{
+  background-image: url(/assets/img/categories/stats-banner.png)!important;
+  /* min-height: auto; */
+  height:auto;
+  background-size:100%;
+  background-repeat: no-repeat!important;
+  
+  width:100%!important;
 }

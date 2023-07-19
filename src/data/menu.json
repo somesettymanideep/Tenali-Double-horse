@@ -9,7 +9,7 @@
             "id":2,
             "title":"Purity",
             "price":13.99,
-            "icon":"fas fa-apple-alt"
+            "icon":"fas fa-snowflake"
         },{
             "id":3,
             "title":"Authentic flavor",
@@ -19,12 +19,12 @@
             "id":4,
             "title":"Texture",
             "price":13.99,
-            "icon":"fa fa-circle"
+            "icon":"fa fa-lemon"
         },{
             "id":5,
             "title":"Hygiene",
             "price":11.99,
-            "icon":"fas fa-shower"
+            "icon":"fas fa-shield-alt"
         },{
             "id":6,
             "title":"Longer Shelf Life",

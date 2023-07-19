@@ -7,8 +7,13 @@
         "submenu": [
             {
                 "id": 11,
-                "link": "/home-v2",
+                "link": "/",
                 "linkText": "Home page1 "
+            },
+            {
+                "id": 12,
+                "link": "/home-v2",
+                "linkText": "Home page2"
             }
         ]
     },

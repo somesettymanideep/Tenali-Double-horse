@@ -20,7 +20,7 @@ class Offer extends Component {
                                 {/* <p className="subtitle">
                                 We encourage you to switch to the right choices, as it is the need of the hour!
           </p> */}
-                                <a href={"/about"} className="btn-custom">Read more</a>
+                                <a href={"/home-v2"} className="btn-custom">Read more</a>
                             </div>
                         </div>
                     </div>

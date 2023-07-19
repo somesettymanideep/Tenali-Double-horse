@@ -3,27 +3,12 @@
         "id": 1,
         "linkText": "Home",
         "link":"/",
-        "child": false,
+        "child": true,
         "submenu": [
             {
                 "id": 11,
                 "link": "/home-v2",
                 "linkText": "Home page1 "
-            },
-            {
-                "id": 12,
-                "link": "/",
-                "linkText": "Home page2"
-            },
-            {
-                "id": 13,
-                "link": "/home-v3",
-                "linkText": "Home Page3"
-            },
-            {
-                "id": 14,
-                "link": "/home-v4",
-                "linkText": "Home Page4"
             }
         ]
     },

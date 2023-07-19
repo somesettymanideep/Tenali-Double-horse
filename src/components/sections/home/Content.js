@@ -13,16 +13,11 @@ class Content extends Component {
         return (
             <Fragment>
                 <Banner />
-                <Menuitems/>
+                <Menuitems />
                 <Productcards/>
+                <Cta/>
                 <Stats/>
-                
-                
                
-                
-                <Cta />
-                
-                <Instagram />
             </Fragment>
         );
     }

@@ -31,7 +31,7 @@ class Menuitems extends Component {
             }]
         }
         return (
-            <div className="section pt-0 pb-0 category-section light-pic">
+            <div className="section  mt-5 mb-5 pt-0 pb-0 category-section light-pic">
                 {/* <h5 className="custom-primary text-center">Nourishing Goodness</h5>
                     <h2 className="title text-center mb-5">Discover Our Premium Dals & Pulses!</h2> */}
                 <div className="container mb-3">

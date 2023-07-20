@@ -2670,11 +2670,12 @@ table img{
 .subheader{
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  /* min-height: 500px; */
   padding: 220px 0 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -2684,6 +2685,7 @@ table img{
 }
 .subheader-inner{
   max-width: 700px;
+  
 }
 .subheader.text-center{
   padding: 150px 0;
@@ -5809,3 +5811,90 @@ td.quantity{
 .card {
   border:1px solid #efe8e1!important;
 }
+
+/* about banner */
+.breadcrumb{
+  display: flex!important;
+	flex-direction: column!important;
+	align-items: center!important;
+}
+ .padding-section{
+  padding: 300px 0 90px;
+ }
+ .padding-section-2{
+  padding: 300px 0 220px;
+ }
+ 
+ /* nutrients section */
+ .gheeimgsec {
+  position: absolute;
+
+  
+  bottom: 0.5%;
+  right:0.5%;
+  z-index: 9999;
+  width: 45%;
+}
+
+/* home footer */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.icon-row {
+
+
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icon-wrapper {
+  margin-right: 40px;
+  
+}
+
+.animate-right {
+  opacity: 0;
+  transform: translateX(100px);
+  animation: slideInRight 0.7s forwards;
+}
+
+.animate-down {
+  opacity: 0;
+  transform: translateY(-100px);
+  animation: slideInDown 0.7s forwards;
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+/* lanuch */

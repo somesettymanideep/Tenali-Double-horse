@@ -8,6 +8,11 @@ import React, { Component } from 'react';
            
           
         <section id="gallery" class="gap-section">
+          <div className="section-title-wrap section-header text-center pb-3">
+            <h5 className="custom-primary">Harvesting Nature's Nourishment</h5>
+            <h2 className="title">Explore our Dals and Pulses Collection!</h2>
+          
+        </div>
           <div class="container">
             <div class="row">
             <div class="col-lg-6 mb-4">

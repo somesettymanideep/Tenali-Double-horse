@@ -31,9 +31,17 @@ class Menuitems extends Component {
             }]
         }
         return (
+            <div className='mt-5 pt-5'>
+            <div className="section-title-wrap section-header text-center ">
+            <h5 className="custom-primary">Heartwarming Goodness</h5>
+            <h2 className="title">Taste the Love in Our Dals and Pulses</h2>
+            <p className="subtitle">
+            Experience a revolution in healthy breakfast regimes with Tenali Double Horse!Discover the finest quality Urad Gota and Urad Dall available near you, ensuring every morning begins with wholesomeness and taste. 
+                </p>
+        </div>
+            
             <div className="section  mt-5 mb-5 pt-0 pb-0 category-section light-pic">
-                {/* <h5 className="custom-primary text-center">Nourishing Goodness</h5>
-                    <h2 className="title text-center mb-5">Discover Our Premium Dals & Pulses!</h2> */}
+             
                 <div className="container mb-3">
                     {/* Arrow */}
                     <i className="slider-prev fas fa-arrow-left slick-arrow" onClick={this.previous} />
@@ -61,6 +69,7 @@ class Menuitems extends Component {
                     {/* Arrow */}
                     <i className="slider-next fas fa-arrow-right slick-arrow" onClick={this.next} />
                 </div>
+            </div>
             </div>
         );
     }

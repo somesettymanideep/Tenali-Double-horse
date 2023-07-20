@@ -17,10 +17,10 @@ class Footer extends Component {
                         <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
                         </div>
-                        <div className="footer-buttons"  style={{ position: 'absolute', top: '-4%', right: '-1%', zIndex: '9999' }}>
-                            <img src={process.env.PUBLIC_URL + "/assets/img/great-place-to-work-image.png"} style={{height:'180px',width:'100%'}}     alt="logo" />
+                        <div className="footer-buttons" style={{ position: 'absolute', top: '-4%', right: '-1%', zIndex: '9999' }}>
+                            <img src={process.env.PUBLIC_URL + "/assets/img/great-place-to-work-image.png"} style={{ height: '180px', width: '100%' }} alt="logo" />
                         </div>
-                        
+
                     </div>
                 </div>
                 {/* Middle Footer */}
@@ -55,33 +55,33 @@ class Footer extends Component {
                                     <li> <Link to=" ">Call Us</Link> </li>
                                     <li> <Link to=" ">Email</Link> </li>
                                     <li> <Link to=" ">Locate</Link> </li>
-                                    
+
                                 </ul>
                             </div>
                             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-widget">
                                 <h5 className="widget-title">Social Media</h5>
                                 <ul className="social-media">
-  <li>
-    <a target="_blank" rel="noopener noreferrer"  href= {"https://www.facebook.com/tenalidoublehorse"} className="facebook">
-      <i className="fab fa-facebook-f" />
-    </a>
-  </li>
-  <li>
-    <a  target="_blank" rel="noopener noreferrer" href={"https://www.youtube.com/c/TenaliDoubleHorse"} className="youtube">
-      <i className="fab fa-youtube" />
-    </a>
-  </li>
-  <li>
-    <a  target="_blank" rel="noopener noreferrer" href={"https://www.instagram.com/tenalidoublehorse/"} className="youtube">
-      <i className="fab fa-instagram" />
-    </a>
-  </li>
-  <li>
-    <a  target="_blank" rel="noopener noreferrer" href={"https://twitter.com/i/flow/login?redirect_after_login=%2Ftnldoublehorse"} className="twitter">
-      <i className="fab fa-twitter" />
-    </a>
-  </li>
-</ul>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href={"https://www.facebook.com/tenalidoublehorse"} className="facebook">
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href={"https://www.youtube.com/c/TenaliDoubleHorse"} className="youtube">
+                                            <i className="fab fa-youtube" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href={"https://www.instagram.com/tenalidoublehorse/"} className="youtube">
+                                            <i className="fab fa-instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href={"https://twitter.com/i/flow/login?redirect_after_login=%2Ftnldoublehorse"} className="twitter">
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </li>
+                                </ul>
 
                                 <div className="footer-offer">
                                     <p>Signup and get exclusive offers and coupon codes</p>

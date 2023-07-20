@@ -22,7 +22,7 @@ const successpost = [
 class stats extends Component {
     render() {
         return (
-            <div className="section section-padding bg-cover bg-center  mb-5" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/stats-banner.png)" }} >
+            <div className="section section-padding gap-section bg-cover bg-center mt-5 mb-5" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/categories/stats-banner.png)" }} >
                 <div className="container" >
                     <div className="section-title-wrap section-header text-center">
                         <h2 className="title text-white">Our success Story</h2>

@@ -10,6 +10,7 @@ import Process from './Process';
 import Partners from './Partners';
 import Benefits from './Benefits';
 import Greatplacetowork from '../blog-full/Greatplacetowork';
+import Lazyload from '../home-v3/Lazyload'
 // import MyComponent from './MyComponent';
 
 
@@ -41,6 +42,7 @@ class Content extends Component {
                 <Testimonials/>
                 {/* <MyComponent/> */}
                 {/* <Partners/> */}
+                <Lazyload/>
                 <Newsletter />
                 <Greatplacetowork/>
             </Fragment>

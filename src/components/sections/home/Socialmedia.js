@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 class Socialmedia extends Component {
     render() {
         return (
-            <div className="subheader   gap-section pt-5" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/locations/social-one.png)", paddingTop:'30px!important' }}>
+            <div className="subheader mt-5  pt-5"  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/people/final.png)",position:'relative' }} >
                 <div className="container">
                    
                   
                
-        <div className="icon-row"  >
+        <div className="icon-row"   >
        <div className="icon-wrapper" >
         <h2>Follow Us : </h2>
         </div>

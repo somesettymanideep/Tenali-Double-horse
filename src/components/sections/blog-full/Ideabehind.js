@@ -15,7 +15,7 @@ class Ideabehind extends Component {
                                 <h5 className="custom-primary">Idea Behind</h5>
                                 <h2 className="title">Tenali Double horse</h2>
                                 <p className="subtitle" style={{textAlign:'justify'}}>
-                                Since launching in 2005,  Tenali Double Horse has empowered many lives in India and gained millions of people. By putting all the pieces of a successful business in one convenient platform, Tenali Double Horse’s impeccable distribution network got started and grew faster. We provide the best quality Urad Gota and Urad Dall near you.
+                                Shyam Prasad Garu, the visionary force behind Tenali Double Horse, is a trailblazer in entrepreneurship. With relentless pursuit of excellence, he fused tradition with innovation, elevating the brand to unparalleled heights. Urad Gota and Urad Dall of unmatched quality nourish millions and inspire dreamers. His empathetic leadership endears him to all, making him an inspiration for positive impact.
           </p>
                                 {/* <p className="subtitle">
                                 We encourage you to switch to the right choices, as it is the need of the hour!

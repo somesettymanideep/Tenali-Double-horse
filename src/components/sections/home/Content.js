@@ -1,8 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Socialmedia from './Socialmedia';
 import Banner from './Banner';
-import Categories from './Categories';
-import Cta from './Cta';
 import Productcards from '../blog-grid/Productcards';
 import Stats from './Stats';
 import Menuitems from '../home-v2/Categories';

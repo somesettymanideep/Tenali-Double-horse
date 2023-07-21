@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 class Socialmedia extends Component {
     render() {
         return (
-            <div className="subheader mt-5  pt-5"  style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/people/final.png)",position:'relative' }} >
+            <div className="subheader   pt-5"  >
                 <div className="container">
                    
                   

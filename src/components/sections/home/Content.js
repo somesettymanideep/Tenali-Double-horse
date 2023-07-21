@@ -5,7 +5,7 @@ import Productcards from '../blog-grid/Productcards';
 import Stats from './Stats';
 import Menuitems from '../home-v2/Categories';
 import Aboutcompany from './Aboutcompany';
-
+import Process from '../home-v2/Process';
 import Lazyload from '../home-v3/Lazyload';
 import Nobalactivity from './Nobalactivity';
 import Paragraph from '../home-v2/Paragraph';
@@ -30,7 +30,7 @@ class Content extends Component {
 
                 <Menuitems />
                
-               
+                <Process/>
                 <Productcards/>
                 <Stats/>
                 <Paragraph/>

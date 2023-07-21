@@ -23,7 +23,7 @@ class Paragraph extends Component {
     const { show } = this.state;
 
     return (
-      <div className="section light-bg mt-5 mb-5 ">
+      <div className="section light-bg  ">
         <div className="container">
           <div className="row align-items-center ">
             <div className="col-lg-6 mb-lg-30">

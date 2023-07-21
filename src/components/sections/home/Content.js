@@ -8,7 +8,8 @@ import Aboutcompany from './Aboutcompany';
 import Nutrients from './Nutrients';
 import Newproduct from './Newproduct';
 import Youtubevideo from '../home-v3/Youtubevideo';
-import Lazyload from '../home-v3/Lazyload'
+import Lazyload from '../home-v3/Lazyload';
+import Paragraph from '../home-v2/Paragraph';
 
 class Content extends Component {
     render() {
@@ -28,8 +29,10 @@ class Content extends Component {
                 </div>
                 <Menuitems />
                
+               
                 <Productcards/>
                 <Stats/>
+                <Paragraph/>
                 <Lazyload/>
                
               

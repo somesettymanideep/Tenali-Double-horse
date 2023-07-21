@@ -5,9 +5,10 @@ import { Link } from 'react-router-dom';
 
 
 class Aboutcompany extends Component {
+    
     render() {
         return (
-            <div className="subheader gap-section pt-5" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/one-about.png)", paddingTop:'30px!important' }}>
+            <div className="subheader gap-section  pt-5" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/one-about.png)", paddingTop:'30px!important' }}>
                 <div className="container">
                     <div className="subheader-inner">
                       

@@ -361,7 +361,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 20px;
-  font-family: 'Oswald', serif;
+  font-family: 'Helvetica';
   font-weight: 700;
   line-height: 28px;
   color: #1D2228;
@@ -2167,7 +2167,7 @@ table img{
 .banner .title{
   font-size: 62px;
   line-height: 80px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Helvetica";
   margin-bottom: 20px;
   text-transform: uppercase;
 }

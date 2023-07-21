@@ -5934,3 +5934,24 @@ td.quantity{
   z-index: 9999;
   
 } */
+
+/* animations */
+/* styles.css */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-section {
+  opacity: 0;
+}
+
+.fade-in-section.visible {
+  animation: fade-in 5s ease forwards;
+}

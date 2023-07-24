@@ -19,6 +19,23 @@ class Paragraph extends Component {
     this.setState({ show: true });
   }
 
+
+  handleSaveChanges = () => {
+    const content = 'Hello, this is a PDF!'; // Replace this with the content you want in the PDF
+
+    // Convert the content to a Blob
+    const pdfBlob = new Blob([content], { type: 'application/pdf' });
+
+    // Create a download link
+    const downloadLink = document.createElement('a');
+    downloadLink.href = URL.createObjectURL(pdfBlob);
+    downloadLink.download = 'my_document.pdf';
+    downloadLink.click();
+
+    // Close the modal after saving
+    this.handleClose();
+  };
+
   render() {
     const { show } = this.state;
 
@@ -68,7 +85,7 @@ class Paragraph extends Component {
             <button className="btn-custom btn btn-sm" onClick={this.handleClose}>
               Close
             </button>
-            <button className="btn-custom btn btn-sm" onClick={this.handleClose}>
+            <button className="btn-custom btn btn-sm" onClick={this.handleSaveChanges}>
               Save Changes
             </button>
           </Modal.Footer>

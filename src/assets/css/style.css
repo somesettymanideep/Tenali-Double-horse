@@ -1014,7 +1014,13 @@ table img{
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
-
+.main-header.header-1{
+  background-color: transparent!important;
+}
+.main-header.header-sticky{
+  background-color: white!important;
+  position:fixed!important;
+}
 .main-header.header-absolute {
   position: absolute;
 }
@@ -5781,12 +5787,12 @@ td.quantity{
 }
 
 /* cards */
-.card{
+/* .card{
   background-color: #ffffff;
   background-image: -webkit-linear-gradient(rgba(247, 142, 175, 0.1), #fff);
 
-}
-.black{
+} */
+/* .black{
   background-image: -webkit-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
 }
 .white{
@@ -5794,7 +5800,7 @@ td.quantity{
 }
 .yellow{
   background-image: -webkit-linear-gradient(rgba(253, 197, 11, 0.1), #fff);
-}
+} */
 
 .statstics{
   background-image: url(/assets/img/categories/stats-banner.png)!important;
@@ -5811,7 +5817,7 @@ td.quantity{
   margin-bottom: 60px!important;
 }
 .card {
-  border:1px solid #efe8e1!important;
+  border:none!important;
 }
 
 /* about banner */
@@ -5950,3 +5956,15 @@ td.quantity{
 .fade-in-section.visible {
   animation: fade-in 5s ease forwards;
 }
+
+
+/* sticky header */
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+}
+

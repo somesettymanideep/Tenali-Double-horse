@@ -4,12 +4,64 @@ import HeaderComponent from '../../helper/Navigationhelper';
 import Cartlist from '../layouts/Cartlist';
 import Search from '../layouts/Search';
 import Mobilemenu from '../layouts/Mobilemenu';
+import { animateScroll as scroll } from 'react-scroll';
 import Menu from './Menu';
 import classNames from 'classnames';
 import cartitem from '../../data/cartlist.json';
+// import ScrollToTop from 'react-scroll-to-top';
 
 class Header extends HeaderComponent {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isSticky: false,
+            cartmethod: false,
+            isScrolled: false,
+            searchmethod: false,
+            navmethod: false,
+        };
+    }
+
+    handleScroll = () => {
+        const headerHeight = 100; // You can adjust this value based on your header's height
+        const isSticky = window.scrollY > headerHeight;
+        // this.setState({ isSticky });
+        const isScrolled = window.scrollY > 0; // Check if the user has scrolled (added)
+        this.setState({ isSticky, isScrolled })
+    };
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+    }
+
+    cartToggle = () => {
+        this.setState((prevState) => ({
+            cartmethod: !prevState.cartmethod,
+        }));
+    };
+
+    searchToggle = () => {
+        this.setState((prevState) => ({
+            searchmethod: !prevState.searchmethod,
+        }));
+    };
+
+    toggleNav = () => {
+        this.setState((prevState) => ({
+            navmethod: !prevState.navmethod,
+        }));
+    };
+
     render() {
+        const { isSticky, isScrolled } = this.state;
+        const headerClass = classNames('main-header', 'header-1','header-absolute', {
+            'header-sticky': isSticky || isScrolled, // Add 'isScrolled' to update the header color initially
+        });
+
         return (
             <Fragment>
                 {/* Cart Sidebar Start */}
@@ -42,7 +94,7 @@ class Header extends HeaderComponent {
                 </aside>
                 <div className="aside-overlay aside-trigger" onClick={this.toggleNav} />
                 {/* Header Start */}
-                <header className="main-header header-1 header-absolute">
+                <header className={headerClass} style={{ backgroundColor: isSticky ? 'white' : 'transparent' }}>
                     
                     <div className="container">
                         <nav className="navbar">
@@ -58,9 +110,9 @@ class Header extends HeaderComponent {
                                         <span className="cart-item-count">{cartitem.length}</span>
                                         <i className="flaticon-shopping-bag" />
                                     </li>
-                                    <li className="search-dropdown-wrapper search-trigger" onClick={this.searchToggle}>
+                                    {/* <li className="search-dropdown-wrapper search-trigger" onClick={this.searchToggle}>
                                         <i className="flaticon-search" />
-                                    </li>
+                                    </li> */}
                                 </ul>
                                 {/* Toggler */}
                                 <div className="aside-toggler aside-trigger" onClick={this.toggleNav}>
@@ -73,6 +125,9 @@ class Header extends HeaderComponent {
                     </div>
                 </header>
                 {/* Header End */}
+                 {/* Header End */}
+                {/* Scroll Top Button */}
+                {/* <ScrollToTop smooth color="red!important" /> */}
             </Fragment>
         );
     }

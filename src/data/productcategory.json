@@ -1,56 +1,56 @@
 [
     {
         "id": 1,
-        "title": "Dals & Pulses",
-        "img": "assets/img/categories/1.jpg",
+        "title": "India",
+        "img": "assets/img/categories/india.png",
         "lgimg":"assets/img/categories-lg/1.jpg",
         "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
         "urls":"https://tenalidoublehorse.com/product/urad-gota-1-2-kg-eco-pack-of-2/"
     },
     {
         "id": 2,
-        "title": "Dals & Pulses",
-        "img": "assets/img/categories/2.jpg",
+        "title": "USA",
+        "img": "assets/img/categories/usa.png",
         "lgimg":"assets/img/categories-lg/2.jpg",
         "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
         "urls":" "
         },
     {
         "id": 3,
-        "title": "Dals & Pulses",
-        "img": "assets/img/categories/3.jpg",
+        "title": "UAE",
+        "img": "assets/img/categories/uae.png",
         "lgimg":"assets/img/categories-lg/3.jpg",
         "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
         "urls":" "
     },
     {
         "id": 4,
-        "title": "Dals & Pulses",
-        "img": "assets/img/categories/7.jpg",
+        "title": "UK",
+        "img": "assets/img/categories/uk.png",
         "lgimg":"assets/img/categories-lg/4.jpg",
         "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
         "urls":" "
     },
     {
         "id": 5,
-        "title": "Dals & Pulses",
-        "img": "assets/img/categories/4.jpg",
+        "title": "Austraila",
+        "img": "assets/img/categories/austraila.png",
         "lgimg":"assets/img/categories-lg/5.jpg",
         "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
         "urls":" "
     },
     {
         "id": 6,
-        "title": "Dals & Pulses",
-        "img": "assets/img/categories/5.jpg",
+        "title": "Europe",
+        "img": "assets/img/categories/europe.png",
         "lgimg":"assets/img/categories-lg/1.jpg",
         "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
         "urls":" "
     },
     {
         "id": 7,
-        "title": "Dals & Pulses",
-        "img": "assets/img/categories/8.jpg",
+        "title": "South Africa",
+        "img": "assets/img/categories/south africa.png",
         "lgimg":"assets/img/categories-lg/2.jpg",
         "shortdesc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
         "urls":" "

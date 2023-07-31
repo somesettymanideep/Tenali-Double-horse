@@ -18,10 +18,10 @@ class Content extends Component {
                 
                 <Stats/>
                
-                <div className="enquires">
+                {/* <div className="enquires">
                     <h1 className="heading">For export enquires mail us</h1>
                     <button className="button-gmail">exports@tenalidoublehorse.com</button>
-                </div>
+                </div> */}
               
                 <MyComponent/>
                 {/* <Teammembers/> */}

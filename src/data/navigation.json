@@ -3,7 +3,7 @@
         "id": 1,
         "linkText": "Home",
         "link":"/",
-        "child": true,
+        "child": false,
         "submenu": [
             {
                 "id": 11,
@@ -27,15 +27,10 @@
                 "linkText": "Our Company",
                 "link": "/about"
                
-            },
-            {
-                "id": 22,
-                "link": "/Who-we-are",
-                "linkText": "Who We Are"
             }
             ,
             {
-                "id": 23,
+                "id": 22,
                 "link": "/Where-we-are",
                 "linkText": "Where We Are"
             }

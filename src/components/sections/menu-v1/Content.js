@@ -45,6 +45,8 @@ class Content extends Component {
             slidesToScroll: 3,
             arrows: false,
             dots: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
             responsive: [
                 {
                     breakpoint: 1200,
@@ -96,7 +98,7 @@ class Content extends Component {
                                 </div>
                             </div>
                             <p>{item.shortdesc}</p>
-                            <Link to="#" className="btn-custom light btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)}> Customize <i className="fas fa-plus" /> </Link>
+                            <Link to="#" className="btn-custom light btn-sm shadow-none" onClick={(e) => this.modalShow(item.id)}>More info<i className="fas fa-plus" /> </Link>
                         </div>
                         <div className="product-controls">
                             <p className="product-price">{new Intl.NumberFormat().format((item.price).toFixed(2))}₹</p>
@@ -109,15 +111,15 @@ class Content extends Component {
         return (
             <Fragment>
                 {/* Menu Categories Start */} 
-                {/*<div className="ct-menu-categories menu-filter">
+                <div className="ct-menu-categories menu-filter">
                     <div className="container">
                         <Slider className="menu-category-slider" {...settings}>
                             <Link to="#" data-filter="*" className={this.state.activeItem === -1 ? 'ct-menu-category-item active' : 'ct-menu-category-item'} onClick={this.handleClick.bind(this, -1)}>
                                 <div className="menu-category-thumb">
-                                    <img src={process.env.PUBLIC_URL + "/assets/img/categories/6.jpg"} alt="All" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/img/categories/countries.png"} alt="All" />
                                 </div>
                                 <div className="menu-category-desc">
-                                    <h6>All</h6>
+                                    <h6>All Products</h6>
                                 </div>
                             </Link>
                             {productcategory.map((item, i) => (
@@ -132,7 +134,7 @@ class Content extends Component {
                             ))}
                         </Slider>
                     </div>
-                </div>*/}
+                </div>
                 {/* Menu Categories End */}
                 {/* Menu Wrapper Start */}
                 <div className="section section-padding">

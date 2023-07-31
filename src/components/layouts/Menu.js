@@ -49,34 +49,10 @@ class Menu extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    {/*<div className="offset-lg-1 col-lg-3">
-                                        <div className="mega-menu-item">
-                                            <h5>Menu Pages</h5>
-                                            <Link to="/menu-v1">Our Products</Link>
-                                            <Link to="/menu-v2">Menu v2</Link>
-                                            <Link to="#" className="coming-soon"><span></span> </Link>
-                                            <Link to="#" className="coming-soon"><span></span> </Link>
-                                        </div>
-                    </div>8/}
-                                    {/*<div className="col-lg-4">
-                                        <div className="mega-menu-item">
-                                            <h5>Menu Item Pages</h5>
-                                            <Link to="/menu-item-v1/1">Menu Item v1</Link>
-                                            <Link to="/menu-item-v2/1">Menu Item v2</Link>
-                                            <Link to="#" className="coming-soon"><span></span></Link>
-                                        </div>
-                    </div>*/}
+                                   
                                     <div className="col-12 mega-menu-promotion-wrapper">
                                         <div className="row">
-                                        <div className="col-3">
-                                                <div className="mega-menu-promotion">
-                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/tenali-double-horse-idly-rava-300x300.png"} alt="pizza" /></a>
-                                                    <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"/menu-v1"}>Idly Rava</a></h4>
-                                                        <span>₹184</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        
                                             <div className="col-3">
                                                 <div className="mega-menu-promotion">
                                                     <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Gota-300x300.png"} alt="pizza" /></a>
@@ -88,19 +64,29 @@ class Menu extends Component {
                                             </div>
                                             <div className="col-3">
                                                 <div className="mega-menu-promotion">
-                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-horse-Moong-Dal-300x300.png"} alt="pizza" /></a>
+                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Dall-300x300.png"} alt="pizza" /></a>
                                                     <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"/menu-v1"}>Moong Dall </a></h4>
-                                                        <span>₹152</span>
+                                                        <h4><a href={"/menu-v1"}>Maharani Urad Dall </a></h4>
+                                                        <span>₹143.00</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-3">
                                                 <div className="mega-menu-promotion">
-                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Toor-Dall-300x300.png"} alt="pizza" /></a>
+                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Urad-Dal-300x300.png"} alt="pizza" /></a>
                                                     <div className="mega-menu-promotion-text">
-                                                        <h4><a href={"/menu-v1"}>Toor Dall</a></h4>
-                                                        <span>₹150</span>
+                                                        <h4><a href={"/menu-v1"}>Urad Dall</a></h4>
+                                                        <span>₹149.00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                           
+                                            <div className="col-3">
+                                                <div className="mega-menu-promotion">
+                                                    <a href={"/menu-v1"}><img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Husked-Urad-Dall-300x300.png"} alt="pizza" /></a>
+                                                    <div className="mega-menu-promotion-text">
+                                                        <h4><a href={"/menu-v1"}>Husked Black Gram Dall</a></h4>
+                                                        <span>₹143.00</span>
                                                     </div>
                                                 </div>
                                             </div>

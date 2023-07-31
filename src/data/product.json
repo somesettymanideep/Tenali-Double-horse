@@ -350,11 +350,6 @@
                         "title": "Cheese",
                         "addprice": 4.00,
                         "state": true
-                    },
-                    {
-                        "title": "Butter",
-                        "addprice": 3.25,
-                        "state": false
                     }
                 ]
             },

@@ -106,10 +106,10 @@ class Header extends HeaderComponent {
                             <Menu />
                             <div className="header-controls">
                                 <ul className="header-controls-inner">
-                                    <li className="cart-dropdown-wrapper cart-trigger" onClick={this.cartToggle}>
+                                    {/* <li className="cart-dropdown-wrapper cart-trigger" onClick={this.cartToggle}>
                                         <span className="cart-item-count">{cartitem.length}</span>
                                         <i className="flaticon-shopping-bag" />
-                                    </li>
+                                    </li> */}
                                     {/* <li className="search-dropdown-wrapper search-trigger" onClick={this.searchToggle}>
                                         <i className="flaticon-search" />
                                     </li> */}

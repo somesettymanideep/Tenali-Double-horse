@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
 import Content from '../sections/locations/Content';
 
-const pagelocation = 'Locations'
+const pagelocation = 'Contact'
 
 class Locations extends Component {
     render() {

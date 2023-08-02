@@ -6,6 +6,7 @@ import Newsletter from "../home-v2/Newsletter";
 import Stats from '../home/Stats';
 import Rules from './Rules';
 import MyComponent from '../home-v2/MyComponent';
+import Greatplacetowork from '../blog-full/Greatplacetowork'
 
 class Content extends Component {
     render() {
@@ -13,7 +14,8 @@ class Content extends Component {
             <Fragment>
                <Aboutcompany/>
                 <Rules/>
-                {/* <Aboutus /> */}
+                <Greatplacetowork/>
+                
                 
                 
                 <Stats/>

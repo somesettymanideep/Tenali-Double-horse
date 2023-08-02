@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/ProductsBreadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/menu-v1/Content';
 
-const pagelocation = 'Menu v1'
+const pagelocation = 'Products'
 
 class Menuone extends Component {
     render() {

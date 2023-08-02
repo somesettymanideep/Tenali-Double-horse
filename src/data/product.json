@@ -320,93 +320,30 @@
         ],
         "attributes": [
             {
-                "name": "Dough",
+                "name": "Nutrition Facts",
                 "icon": "flaticon-bread-roll",
                 "type":"radio",
                 "items": [
                     {
-                        "title": "Regular",
-                        "addprice": 0.00,
+                        "title": "Energy(Kcal)",
+                        "addprice":372.31,
                         "state": true
                     },
                     {
-                        "title": "Hand Flipped",
-                        "addprice": 2.00,
+                        "title": "Protein(g)",
+                        "addprice": 24.01,
                         "state": false
                     },
                     {
-                        "title": "Multi Grain",
-                        "addprice": 4.00,
+                        "title": "Carbohydrate(g)",
+                        "addprice": 65.00,
                         "state": false
                     }
-                ]
-            },
-            {
-                "name": "Crust",
-                "icon": "flaticon-pizza-slice",
-                "type":"radio",
-                "items": [
-                    {
-                        "title": "Cheese",
-                        "addprice": 4.00,
-                        "state": true
-                    }
-                ]
-            },
-            {
-                "name": "Add",
-                "icon": "flaticon-pizza-and-cutted-slice",
-                "type":"checkbox",
-                "items": [
-                    {
-                        "title": "Chicken",
-                        "addprice": 2.00,
-                        "state": true
-                    },
-                    {
-                        "title": "Four Cheese",
-                        "addprice": 1.20,
-                        "state": false
-                    },
-                    {
-                        "title": "Fresh Mushroom",
-                        "addprice": 0.75,
-                        "state": false
-                    },
-                    {
-                        "title": "Bell Peppers",
-                        "addprice": 0.25,
-                        "state": false
-                    }
-                ]
-            },
-            {
-                "name": "Cheese",
-                "icon": "flaticon-cheese",
-                "type":"checkbox",
-                "items": [
-                    {
-                        "title": "Mozarella",
-                        "addprice": 1.00,
-                        "state": true
-                    },
-                    {
-                        "title": "Cheddar",
-                        "addprice": 1.25,
-                        "state": false
-                    },
-                    {
-                        "title": "Gruyere",
-                        "addprice": 3.75,
-                        "state": false
-                    },
-                    {
-                        "title": "Blue Cheese",
-                        "addprice": 0.25,
-                        "state": false
-                    }
+                    
                 ]
             }
+           
+            
         ],
         "longdescription":"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica",
         "reviews":[

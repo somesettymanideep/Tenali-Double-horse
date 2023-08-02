@@ -37,6 +37,8 @@ const MapWithClickableLocations = () => {
 
   return (
     <div >
+       <div className="row ">
+       <div className="col-lg-12">
       <div style={{backgroundColor:'#ED4E53'}}>
         <ul className="ullist controls" style={{ display: 'flex',margin: '0', padding: '0', listStyleType: 'none' }}>
           <li key="guntur" style={{margin: '0'}} className={selectedLocation === 'guntur' ? 'active' : ''} >
@@ -86,7 +88,9 @@ const MapWithClickableLocations = () => {
           </LocationMarker>
         ))}
       </MapContainer>
-    </div>
+      </div>
+     </div>
+   </div>
   );
 };
 

@@ -9,6 +9,7 @@ class Meetourteam extends Component {
                                 <h2 className="title text-center">Explore Our Operating Locations</h2>
     
     <div class="row">
+       
         <div class="col-md-4 pt-3">
             <div class="box">
             <img src={process.env.PUBLIC_URL + "/assets/img/locations/india.png"}  alt="img" className='shadow-sm   bg-white rounded' />

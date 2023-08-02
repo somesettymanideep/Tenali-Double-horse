@@ -4255,7 +4255,7 @@ td.quantity{
   margin-bottom: 30px;
 }
 .product-body{
-  min-height:450px;
+  /* min-height:450px; */
   display:flex;
   flex-direction: column;
   justify-content: space-between;

@@ -9,7 +9,8 @@ import Process from '../home-v2/Process';
 import Lazyload from '../home-v3/Lazyload';
 import Nobalactivity from './Nobalactivity';
 import Paragraph from '../home-v2/Paragraph';
-import Nutrients from './Nutrients'
+
+
 
 class Content extends Component {
     render() {
@@ -30,7 +31,7 @@ class Content extends Component {
                 <Paragraph/>
                 <Lazyload/>
                
-              
+            
                
               <Socialmedia/>
             </Fragment>

@@ -5923,6 +5923,8 @@ td.quantity{
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 5px!important;
+  border:3px solid #ED4E53!important;
 }
 
 /* social-media */
@@ -5999,96 +6001,186 @@ td.quantity{
   text-align: justify!important;
 }
 
-/* Map Countries */
-.map-container {
-  padding: 3.2rem 0.8rem;
+/* NOtbal activities */
+/* number of images*/
+.gallery {
+  --d: 10s;
+  /* duration */
+  display: grid;
+  width: 220px;
+}
+
+.gallery > img {
+  grid-area: 1/1;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 10px solid #f2f2f2;
+  box-shadow: 0 0 4px #0007;
+  z-index: 2;
+  animation: slide var(--d) infinite, z-order var(--d) infinite steps(1);
+}
+
+.gallery img:last-child {
+  animation-name: slide, z-order-last;
+}
+
+.gallery > img:nth-child(1) {
+  animation-delay: calc(0* var(--d));
+  --r: 17deg;
+}
+
+.gallery > img:nth-child(2) {
+  animation-delay: calc(-0.2* var(--d));
+  --r: 6deg;
+}
+
+.gallery > img:nth-child(3) {
+  animation-delay: calc(-0.4* var(--d));
+  --r: 18deg;
+}
+
+.gallery > img:nth-child(4) {
+  animation-delay: calc(-0.6* var(--d));
+  --r: 18deg;
+}
+
+.gallery > img:nth-child(5) {
+  animation-delay: calc(-0.8* var(--d));
+  --r: 6deg;
+}
+
+@keyframes slide {
+  10% {
+    transform: translateX(120%) rotate(var(--r));
+  }
+  0%, 100%, 20% {
+    transform: translateX(0%) rotate(var(--r));
+  }
+}
+@keyframes z-order {
+  10%, 20% {
+    z-index: 1;
+  }
+  80% {
+    z-index: 2;
+  }
+}
+@keyframes z-order-last {
+  10%, 20% {
+    z-index: 1;
+  }
+  90% {
+    z-index: 2;
+  }
+}
+
+
+/* icons  */
+/* SocialMediaIcons.css */
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
   position: relative;
-  display: inline-block;
-  img {
-    width: 100%;
-  }
-  .point {
-    cursor: pointer;
-    position: absolute;
-    width: 1.6rem;
-    height: 1.6rem;
-    background-color:#9b5050;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    will-change: transform, box-shadow;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 0 rgba(#651111, 0.4);
-    animation: pulse 3s infinite;
-    &:hover {
-      animation: none;
-      transform: translate(-50%, -50%) scale3D(1.35, 1.35, 1);
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    }
-  }
-  .venezuela {
-    top: 54%;
-    left: 24%;
-  }
-  .brasil {
-    top: 64%;
-    left: 28%;
-  }
-  .argentina {
-    top: 77%;
-    left: 27%;
-  }
-  .colombia {
-    top: 55%;
-    left: 21%;
-  }
-  .panama {
-    top: 51%;
-    left: 18%;
-  }
-  .mexico {
-    top: 38%;
-    left: 12%;
-  }
-  .usa {
-    top: 26%;
-    left: 17%;
-  }
-  .arabia {
-    top: 40%;
-    left: 53%;
-  }
-  .turquia {
-    top: 31%;
-    left: 57%;
-  }
-  .rusia {
-    top: 16%;
-    left: 67%;
-  }
-  .china {
-    top: 45.5%;
-    left: 70%;
-  }
-  .japon {
-    top: 34%;
-    left: 86%;
-  }
-  .australia {
-    top: 72%;
-    left: 86%;
-  }
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(#5b2626, 0.5);
-  }
-  70% {
-    box-shadow: 0 0 0 25px rgba(#620f0f, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(#660a0a, 0);
-  }
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+.wrapper .tooltip::before {
+  position: absolute;
+  content: '';
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook-m:hover,
+.wrapper .facebook-m:hover .tooltip,
+.wrapper .facebook-m:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter-m:hover,
+.wrapper .twitter-m:hover .tooltip,
+.wrapper .twitter-m:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github-m:hover,
+.wrapper .github-m:hover .tooltip,
+.wrapper .github-m:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube-m:hover,
+.wrapper .youtube-m:hover .tooltip,
+.wrapper .youtube-m:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+
+.wrapper .linked-m:hover,
+.wrapper .linked-m:hover .tooltip,
+.wrapper .linked-m:hover .tooltip::before {
+  background: #3b579d;
+  color:#ffffff;
+}
+
+/* bcontact banner */
 

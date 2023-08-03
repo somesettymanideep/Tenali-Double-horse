@@ -5,6 +5,7 @@ import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import MultipleMaps from './Multiplemaps'
 
 
+
 const customMarker = L.icon({
     iconUrl: process.env.PUBLIC_URL + "/assets/img/misc/marker.png",
     iconSize: [32, 32],
@@ -114,7 +115,7 @@ class Content extends Component {
                             </div>
                         </div>
                     </div>
-
+                  
                     <MultipleMaps />
                     {/* {location.map((item, i) => (
                         <div key={i} className="location-item">

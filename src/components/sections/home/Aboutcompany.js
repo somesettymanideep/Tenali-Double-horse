@@ -37,7 +37,7 @@ class Aboutcompany extends Component {
     render() {
         const { isVisible } = this.state;
         return (
-            <div ref={this.sectionRef} className={`subheader gap-section pt-5 fade-in-section ${isVisible ? 'visible' : ''}`} style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-double-horse-about-banner.png)", paddingTop:'30px!important' }}>
+            <div ref={this.sectionRef} className={`subheader gap-section pt-5 fade-in-section ${isVisible ? 'visible' : ''}`} style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/tenali-souble-horse-about-section-1900x600.png)", paddingTop:'30px!important' }}>
                 <div className="container">
                     <div className="subheader-inner">
                       

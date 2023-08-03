@@ -1,47 +1,46 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
-
-
 
 class Socialmedia extends Component {
-    render() {
-        return (
-            <div className="subheader   pt-5"  >
-                <div className="container">
-                   
-                  
-               
-        <div className="icon-row"   >
-       <div className="icon-wrapper" >
-        <h2>Follow Us : </h2>
-        </div>
-          <div className="icon-wrapper" >
-          
-            <i className="fab fa-facebook " style={{fontSize:'30px'}}></i>
-           
-          </div>
-          <div className="icon-wrapper">
-          
-            <i className="fab fa-twitter" style={{fontSize:'30px'}}></i>
-          </div>
-          <div className="icon-wrapper">
-           
-            <i className="fab fa-instagram" style={{fontSize:'30px'}}></i>
-          </div>
-          <div className="icon-wrapper">
-            
-            <i className="fab fa-linkedin" style={{fontSize:'30px'}}></i>
-          </div>
-        </div>
-
-                       
-                    </div>
-                </div>
-      
-           
-        );
-    }
+  render() {
+    return (
+      <div className="social-icons mb-5 mt-3"style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+      <span className="title text-center text-dark" style={{fontFamily:'Helvetica',lineHeight:'48px',fontWeight:'700'}}> Follow us:</span>
+      <ul className="wrapper" >
+        <li className="icon facebook-m">
+          <span className="tooltip">Facebook</span>
+          <span>
+            <i className="fab fa-facebook-f"></i>
+          </span>
+        </li>
+        <li className="icon twitter-m">
+          <span className="tooltip">Twitter</span>
+          <span>
+            <i className="fab fa-twitter"></i>
+          </span>
+        </li>
+        <li className="icon instagram">
+          <span className="tooltip">Instagram</span>
+          <span>
+            <i className="fab fa-instagram"></i>
+          </span>
+        </li>
+       
+        <li className="icon youtube-m">
+          <span className="tooltip">Youtube</span>
+          <span>
+            <i className="fab fa-youtube"></i>
+          </span>
+        </li>
+        <li className="icon linked-m">
+          <span className="tooltip">Linkedin</span>
+          <span>
+            <i className="fab fa-linkedin"></i>
+          </span>
+        </li>
+      </ul>
+      </div>
+    );
+  }
 }
 
 export default Socialmedia;

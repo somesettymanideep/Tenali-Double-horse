@@ -100,7 +100,7 @@ class Header extends HeaderComponent {
                         <nav className="navbar">
                             {/* Logo */}
                             <Link className="navbar-brand" to="/">
-                                <img src={process.env.PUBLIC_URL + "/assets/img/transparent-logo.png"} alt="logo" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/tenali-double-horse-logo-250x73.png"} alt="logo" />
                             </Link>
                             {/* Menu */}
                             <Menu />

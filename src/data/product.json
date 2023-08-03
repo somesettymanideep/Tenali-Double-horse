@@ -154,7 +154,7 @@
         "attributes": [
             {
                 "name": "Nutrition Facts",
-                "icon": "flaticon-bread-roll",
+                
                 "type":"radio",
                 "items": [
                     {
@@ -238,7 +238,7 @@
         "attributes": [
             {
                 "name": "Nutrition Facts",
-                "icon": "flaticon-bread-roll",
+               
                 "type":"radio",
                 "items": [
                     {
@@ -321,7 +321,7 @@
         "attributes": [
             {
                 "name": "Nutrition Facts",
-                "icon": "flaticon-bread-roll",
+               
                 "type":"radio",
                 "items": [
                     {
@@ -406,7 +406,7 @@
         "attributes": [
             {
                 "name": "Nutrition Facts",
-                "icon": "flaticon-bread-roll",
+                
                 "type":"radio",
                 "items": [
                     {
@@ -490,7 +490,7 @@
         "attributes": [
             {
                 "name": "Nutrition Facts",
-                "icon": "flaticon-bread-roll",
+               
                 "type":"radio",
                 "items": [
                     {
@@ -574,7 +574,7 @@
         "attributes": [
             {
                 "name": "Nutrition Facts",
-                "icon": "flaticon-bread-roll",
+               
                 "type":"radio",
                 "items": [
                     {
@@ -657,7 +657,7 @@
         "attributes": [
             {
                 "name": "Nutrition Facts",
-                "icon": "flaticon-bread-roll",
+               
                 "type":"radio",
                 "items": [
                     {

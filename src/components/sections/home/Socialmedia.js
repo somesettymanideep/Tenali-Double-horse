@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Socialmedia extends Component {
   render() {
     return (
-      <div className="social-icons mb-5 mt-3"style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+      <div className="social-icons mb-5 mt-3"style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
       <span className="title text-center text-dark" style={{fontFamily:'Helvetica',lineHeight:'48px',fontWeight:'700'}}> Follow us:</span>
       <ul className="wrapper" >
         <li className="icon facebook-m">

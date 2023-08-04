@@ -1,6 +1,6 @@
 import React, { Component , Fragment} from 'react';
 
-import Mapcountries from './Mapcountries';
+
 import Newsletter from '../home-v2/Newsletter';
 import Cards from './Productcards';
 import Mapointing from './Mapointing';
@@ -10,7 +10,7 @@ class Content extends Component {
         return (
             <Fragment>
                 <Mapointing/>
-     <Mapcountries/>
+     {/* <Mapcountries/> */}
             
                 {/* <Cards/> */}
       

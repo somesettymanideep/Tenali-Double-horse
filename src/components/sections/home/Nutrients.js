@@ -7,23 +7,44 @@ import { Link } from 'react-router-dom';
 class Nutrients extends Component {
     render() {
         return (
-            <div className="subheader padding-section  "    style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/one-side.png)",position:'relative' }}>
+            <section className="section bg-center bg-cover dark-overlay" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/Tenali-Double-Horse-NewsLetter.png)" }}>
                 <div className="container">
-                    <div className="subheader-inner">
-                    <div className="gheeimgsec animate-right" >
-						<img src={process.env.PUBLIC_URL + "/assets/img/bg/two-side.png"}  alt=""/>
-					</div>
-                      
-                        {/* <nav aria-label="breadcrumb">
-                            <ol className="breadcrumb">
-                                <li className="breadcrumb-item "> <h5 className="custom-primary">Tenali Double Horse</h5></li>
-                                <li className="breadcrumb-item active text-dark" aria-current="page">Since launching in 2005,  Tenali Double Horse has empowered many lives in India and gained millions of people. By putting all the pieces of a successful business in one convenient platform, Tenali Double Horse’s impeccable distribution network got started and grew faster. We provide the best quality Urad Gota and Urad Dall near you.</li>
-                                <a href={"/about"} className="btn-custom  mt-4">Read more</a>
-                            </ol>
-                        </nav> */}
+                    <div className="ct-newsletter">
+                        <div className="section-title-wrap section-header">
+                            <h2 className="title">Submit Our Feedback</h2>
+
+                        </div>
+                        <form method="post">
+                            <div className="row">
+                                <div className="form-group col-lg-6">
+                                    <input type="text" placeholder="First Name" className="form-control" name="fname" />
+                                </div>
+                                <div className="form-group col-lg-6">
+                                    <input type="text" placeholder="Last Name" className="form-control" name="lname" />
+                                </div>
+                                <div className="form-group col-lg-12">
+                                <input type="email" className="form-control" placeholder="Enter your email address" />
+                                </div>
+                                <div className="form-group col-lg-12">
+                                            <textarea name="message" className="form-control" placeholder="Type your message" rows={4} />
+                                        </div>
+                                <button type="submit" className="btn-custom primary" name="button"> Submit <i className="far fa-paper-plane" /> </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-            </div>
+            </section>
+            // <div className="subheader padding-section  "    style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/bg/one-side.png)",position:'relative' }}>
+            //     <div className="container">
+            //         <div className="subheader-inner">
+            //         <div className="gheeimgsec animate-right" >
+			// 			<img src={process.env.PUBLIC_URL + "/assets/img/bg/two-side.png"}  alt=""/>
+			// 		</div>
+                      
+                      
+            //         </div>
+            //     </div>
+            // </div>
         );
     }
 }

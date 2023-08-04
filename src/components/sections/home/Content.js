@@ -9,6 +9,9 @@ import Process from '../home-v2/Process';
 import Lazyload from '../home-v3/Lazyload';
 import Nobalactivity from './Nobalactivity';
 import Paragraph from '../home-v2/Paragraph';
+import Feedback from './Feedback';
+import Reviews from './Reviews'
+
 
 
 
@@ -22,18 +25,16 @@ class Content extends Component {
               
                 <Nobalactivity/>
                 
-
                 <Menuitems />
-               
-                
+            
                 <Productcards/>
                 <Stats/>
                 <Paragraph/>
                 <Lazyload/>
-               
-            
-               
+              
+               <Reviews/>
               <Socialmedia/>
+              <Feedback/>
             </Fragment>
         );
     }

@@ -17,7 +17,7 @@ class Footer extends Component {
                         <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/" + this.props.footer.logo} alt="logo" />
                         </div>
-                        <div className="footer-buttons" style={{ position: 'absolute', top: '-4%', right: '-1%', zIndex: '9999' }}>
+                        <div className="footer-buttons-banner" >
                             <img src={process.env.PUBLIC_URL + "/assets/img/great-place-to-work-image.png"} style={{ height: '180px', width: '100%' }} alt="logo" />
                         </div>
 

@@ -6182,5 +6182,15 @@ td.quantity{
   color:#ffffff;
 }
 
-/* bcontact banner */
+/* Map pointing */
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* path {
+  fill: #2a354d;
+} */
+ 
+
 

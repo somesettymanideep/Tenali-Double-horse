@@ -20,7 +20,7 @@ class Home extends Component {
                 <Header/>
             
                 <Content/>
-                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/transparent-logo.png" }} />
+                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/tenali-double-horse-logo-250x73.png" }} />
             </Fragment>
         );
     }

@@ -36,15 +36,16 @@ class Newmenu extends Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
-                                    <h5 className='text-center'>Check Out Our Latest Products!</h5>
-                                        <div className="mega-menu-item d-flex">
-                                            <div className='col-lg-6'>
+                                    <h5 className='text-center'>Explore Our Products Range </h5>
+                                        <div className="mega-menu-item d-flex justify-content-center align-items-center">
+                                            <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
                                            
-                                            <a href={"/menu-v1"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/products-logo-one.png"} alt="pizza" /></a>
-                                           
+                                            <a href={"/menu-v1"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/products-red.png"} alt="pizza" /></a>
+                                            <a href={"/menu-v1"} className="btn-custom  shadow-none btn-sm">View More</a>
                                             </div>
-                                            <div className='col-lg-6'>
-                                            <a href={"/menu-v2"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/products-logo-two.png"} alt="pizza" /></a>
+                                            <div className='col-lg-4 d-flex flex-column justify-content-center align-items-center'>
+                                            <a href={"/Tenalifoodproducts"}> <img src={process.env.PUBLIC_URL + "/assets/img/prods/products-yellow.png"} alt="pizza" /></a>
+                                            <a href={"/menu-v2"} className="btn-custom  shadow-none btn-sm">View More</a>
                                             </div>
                                         </div>
                                     </div>

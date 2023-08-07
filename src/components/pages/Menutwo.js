@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumb';
 import Footer from '../layouts/Footer';
 import Content from '../sections/menu-v2/Content';
 
-const pagelocation = 'Menu v2'
+const pagelocation = 'TDH Products'
 
 class Menutwo extends Component {
     render() {
@@ -21,7 +21,7 @@ class Menutwo extends Component {
                 <Header/>
                 <Breadcrumbs breadcrumb={{ pagename: pagelocation }} />
                 <Content/>
-                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/logo-light.png" }} />
+                <Footer footer={{ style:"ct-footer footer-dark", logo:"assets/img/tenali-double-horse-logo-250x73.png" }} />
             </Fragment>
         );
     }

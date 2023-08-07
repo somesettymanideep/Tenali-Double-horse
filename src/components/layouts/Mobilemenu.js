@@ -5,6 +5,8 @@ import HeaderComponent from '../../helper/Navigationhelper';
 
 class Mobilemenu extends HeaderComponent {
     render() {
+        const isMobile = window.innerWidth <= 767;
+
         return (
             <Fragment>
                 <Link className="navbar-brand" to="/">
@@ -12,11 +14,13 @@ class Mobilemenu extends HeaderComponent {
                 </Link>
                 <div className="aside-scroll">
                     <ul>
-                        {navigationmenu.length > 0 ? navigationmenu.map((item, i) => (
+                        {navigationmenu.length > 0 ? navigationmenu.map((item, i) => 
+                            // Exclude the "Blog" page from mobile menu
+                            (isMobile && item.linkText === "Blog") ? null :
                             <li key={i} className={`menu-item ${item.child ? 'menu-item-has-children' : ''} `} onClick={this.triggerChild}>
                                 {item.child ? <Link onClick={e => e.preventDefault()} to="/"> {item.linkText} </Link> : <Link to={item.link}> {item.linkText} </Link>}
                                 {item.child ?
-                                    <ul className="submenu" role="menu">
+                                    <ul className={`submenu ${item.child ? 'menu-item-has-children' : ''}`}>
                                         {item.submenu.map((sub_item, i) => (
                                             <li key={i} className={`menu-item ${sub_item.child ? 'menu-item-has-children' : ''} `}>
                                                 {sub_item.child ? <Link onClick={e => e.preventDefault()} to="/"> {sub_item.linkText} </Link> : <Link to={sub_item.link}> {sub_item.linkText} </Link>}
@@ -34,7 +38,7 @@ class Mobilemenu extends HeaderComponent {
                                     : null
                                 }
                             </li>
-                        )) : null}
+                        ) : null}
                     </ul>
                 </div>
             </Fragment>

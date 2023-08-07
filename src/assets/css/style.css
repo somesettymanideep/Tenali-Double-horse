@@ -6453,3 +6453,9 @@ svg {
 .owl-theme .owl-controls.clickable .owl-page:hover span{
     background: #ff4242;
 }
+/* mobile menu display blog page css */
+@media (max-width: 767px) {
+  .menu-item.blog {
+    display: none!important;
+  }
+}

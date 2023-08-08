@@ -55,12 +55,30 @@ class Nobalactivity extends Component {
                 <img src={process.env.PUBLIC_URL + "/assets/img/misc/double-horse.png"}  alt="aha"/>
                 </div>
                 <div className="col-lg-7 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-                  <div class="gallery" >
-                    {/* <img src="https://picsum.photos/id/1004/400/400" alt="a lovely kiss in the night" /> */}
+                  {/* <div class="gallery" >
+                    <img src="https://picsum.photos/id/1004/400/400" alt="a lovely kiss in the night" />
                     <img src="https://picsum.photos/id/1013/400/400" alt="a women inside a car" />
                     <img src="https://picsum.photos/id/1066/400/400" alt="a baby" />
-                    {/* <img src="https://picsum.photos/id/325/400/400" alt="a girl in the forest" /> */}
+                    <img src="https://picsum.photos/id/325/400/400" alt="a girl in the forest" />
                     <img src="https://picsum.photos/id/65/400/400" alt="a girl" />
+                  </div> */}
+                  <div>
+                    {/* <div className="title-cube">
+                      <h1>Animated Cube Slider</h1>
+                      <p>CSS Only</p>
+                      <p className="small-cube">best viewed in Firefox</p>
+                    </div> */}
+
+                    <div className="slider-cube">
+                      <div className="container-cube">
+                        <div className="slide x"></div>
+                        <div className="slide y"></div>
+                        <div className="slide z"></div>
+                      </div>
+                      <div className="shadow-cube"></div>
+                    </div>
+
+
                   </div>
                 </div>
               </div>

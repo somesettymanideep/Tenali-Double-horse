@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { Modal } from 'react-bootstrap';
-import Quickview from '../../layouts/Quickview';
+import Quickview from '../../layouts/TdhfQuickview';
 import products from "../../../data/tdhproduct.json";
 import tdhproductcategory from "../../../data/tdhproductcategory.json";
 import { Rating } from "../../../helper/helper";

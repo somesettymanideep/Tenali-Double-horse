@@ -17,7 +17,7 @@ import React, { Component } from 'react';
             <div class="row">
             <div class="col-lg-6 mb-4">
             <div class="card alignments" style={{minHeight:'400px'}}>
-            <img src={process.env.PUBLIC_URL + "assets/img/prods-sm/Tenali-Double-Horse-Urad-Gota-300x300.png"} style={{width:'300px'}} alt="" className='pt-5 ' />
+            <img src={process.env.PUBLIC_URL + "assets/img/prods-sm/tenali-double-horse-packet-urad-gota.png"} style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Urad gota</h5>
                
@@ -28,7 +28,7 @@ import React, { Component } from 'react';
             </div>
           <div class="col-lg-6 mb-4">
           <div class="card black alignments"  style={{minHeight:'400px'}}>
-          <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-Horse-Black-Gram-Rounds-300x300.png"} style={{width:'300px'}} alt="" className='pt-5 ' />
+          <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/tenali-double-horse-toor-dall.png"} style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Black gram</h5>
               
@@ -39,7 +39,7 @@ import React, { Component } from 'react';
             </div>
             <div class="col-lg-6 mb-4">
           <div class="card white alignments"  style={{minHeight:'400px'}}>
-          <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/tenali-double-horse-idly-rava-300x300.png"}  style={{width:'300px'}} alt="" className='pt-5 ' />
+          <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/tenali-double-horse-idly-rava.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">idly Rava</h5>
                
@@ -50,7 +50,7 @@ import React, { Component } from 'react';
             </div>
             <div class="col-lg-6 mb-4 ">
             <div class="card yellow alignments"  style={{minHeight:'400px'}} >
-            <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/Tenali-Double-horse-Moong-Dal-300x300.png"}  style={{width:'300px'}} alt="" className='pt-5 ' />
+            <img src={process.env.PUBLIC_URL + "/assets/img/prods-sm/tenali-double-horse-moong-dall.png"}  style={{width:'500px'}} alt="" className='pt-5 ' />
               <div class="card-body">
                 <h5 class="text-center">Moong Dal</h5>
                

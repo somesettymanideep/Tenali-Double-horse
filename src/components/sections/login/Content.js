@@ -15,7 +15,7 @@ class Content extends Component {
                             <div className="auth-description-inner">
                                 <i className="flaticon-chili" />
                                 <h2>Welcome Back!</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p>Lorem Ipsum is simply dummy text  printing and typesetting industry.</p>
                             </div>
                         </div>
                         <div className="auth-form">

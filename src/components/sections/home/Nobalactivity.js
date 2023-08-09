@@ -54,7 +54,7 @@ class Nobalactivity extends Component {
                 <div className="col-lg-5 mb-lg-30">
                 <img src={process.env.PUBLIC_URL + "/assets/img/misc/double-horse.png"}  alt="aha"/>
                 </div>
-                <div className="col-lg-7 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                <div className="col-lg-7 mb-120 mb-lg-30" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                   {/* <div class="gallery" >
                     <img src="https://picsum.photos/id/1004/400/400" alt="a lovely kiss in the night" />
                     <img src="https://picsum.photos/id/1013/400/400" alt="a women inside a car" />

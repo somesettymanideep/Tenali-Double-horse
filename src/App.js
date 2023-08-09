@@ -25,7 +25,7 @@ const Menuone = React.lazy(() => import("./components/pages/Menuone"));
 const Menutwo = React.lazy(() => import("./components/pages/Menutwo"));
 const Menuitemone = React.lazy(() => import("./components/pages/Menuitemone"));
 const Menuitemtwo = React.lazy(() => import("./components/pages/Menuitemtwo"));
-const Locations = React.lazy(() => import("./components/pages/Locations"));
+const Contactus = React.lazy(() => import("./components/pages/Contactus"));
 const Contact = React.lazy(() => import("./components/pages/Contact"));
 
 const ScrollToTop = withRouter(({ children, location: { pathname } }) => {
@@ -63,7 +63,7 @@ function App() {
           <Route path="/menu-v2" component={Menutwo} />
           <Route path="/menu-item-v1/:id" exact component={props => (<Menuitemone {...props} key={window.location.pathname} />)} />
           <Route path="/menu-item-v2/:id" exact component={props => (<Menuitemtwo {...props} key={window.location.pathname} />)} />
-          <Route path="/locations" component={Locations} />
+          <Route path="/Contactus" component={Contactus} />
           <Route path="/contact" component={Contact} />
         </ScrollToTop>
       </Suspense>

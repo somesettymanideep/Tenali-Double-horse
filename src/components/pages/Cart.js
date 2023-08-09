@@ -12,7 +12,7 @@ class Cart extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Slices - React Template | {pagelocation}</title>
+                    <title>Slices - React Template  {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

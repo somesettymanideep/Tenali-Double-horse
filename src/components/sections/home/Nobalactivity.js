@@ -62,7 +62,7 @@ class Nobalactivity extends Component {
                     <img src="https://picsum.photos/id/325/400/400" alt="a girl in the forest" />
                     <img src="https://picsum.photos/id/65/400/400" alt="a girl" />
                   </div> */}
-                  <div>
+                  <div className='animation-cube'>
                     {/* <div className="title-cube">
                       <h1>Animated Cube Slider</h1>
                       <p>CSS Only</p>

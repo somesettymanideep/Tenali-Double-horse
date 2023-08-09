@@ -10,9 +10,8 @@ class Content extends Component {
         return (
             <Fragment>
                 <Mapointing/>
-     {/* <Mapcountries/> */}
+   
             
-                {/* <Cards/> */}
       
             </Fragment>
         );

@@ -6480,12 +6480,13 @@ svg {
 	left: 0;
 	width: 200px;
 	height: 200px;
-	margin: auto;
+	margin:  auto;
 	-webkit-perspective: 600px;
 	perspective: 600px;
 }
 
 .slider-cube * {
+ 
 	-webkit-transition: all 1s cubic-bezier(0.5, -0.75, 0.2, 1.5);
 	transition: all 1s cubic-bezier(0.5, -0.75, 0.2, 1.5);
 }
@@ -6509,13 +6510,14 @@ svg {
 	position: absolute;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	background-size: cover;
-	background-position: center;
+	background-size: cover!important;
+	background-position: center!important;
 }
 
 .slide.x {
 	-webkit-transform: rotateY(90deg);
 	transform: rotateY(90deg);
+ 
 }
 
 .slide.x:after {
@@ -6523,6 +6525,7 @@ svg {
 	background-image: url("https://cdn.dribbble.com/users/730703/screenshots/6988911/elenidebo-thisiscolossal-theroad-forchicagodesignmuseum.jpg");
 	-webkit-transform: translateZ(100px) rotateZ(-90deg);
 	transform: translateZ(100px) rotateZ(-90deg);
+ 
 }
 
 .slide.x:before {
@@ -6530,11 +6533,14 @@ svg {
 	background-image: url("https://cdn.dribbble.com/users/329207/screenshots/6220354/bemocs_geneseo_sailing.jpg");
 	-webkit-transform: translateZ(-100px) rotateZ(-90deg);
 	transform: translateZ(-100px) rotateZ(-90deg);
+  
 }
 
 .slide.y {
 	-webkit-transform: rotateX(90deg);
 	transform: rotateX(90deg);
+ 
+ 
 }
 
 .slide.y:after {
@@ -6542,6 +6548,7 @@ svg {
 	background-image: url("https://cdn.dribbble.com/users/63407/screenshots/5705689/dribbble_moonlight_2x.png");
 	-webkit-transform: translateZ(100px) scale(-1);
 	transform: translateZ(100px) scale(-1);
+ 
 }
 
 .slide.y:before {
@@ -6549,11 +6556,15 @@ svg {
 	background-image: url("https://cdn.dribbble.com/users/1355613/screenshots/6441984/landscape_2x.jpg");
 	-webkit-transform: translateZ(-100px);
 	transform: translateZ(-100px);
+  
 }
 
 .slide.z {
 	-webkit-transform: rotateX(0);
 	transform: rotateX(0);
+
+  
+ 
 }
 
 .slide.z:after {
@@ -6561,6 +6572,7 @@ svg {
 	background-image: url("https://cdn.dribbble.com/users/3178178/screenshots/7013817/the_caravan_by_patryk_wojciechowicz_2x.png");
 	-webkit-transform: translateZ(100px);
 	transform: translateZ(100px);
+ 
 }
 
 .slide.z:before {
@@ -6568,6 +6580,7 @@ svg {
 	background-image: url("https://cdn.dribbble.com/users/1361661/screenshots/6673317/music_girl.png");
 	-webkit-transform: translateZ(-100px);
 	transform: translateZ(-100px);
+  
 }
 
 .container-cube {
@@ -6750,3 +6763,74 @@ svg {
 	font-size: smaller;
 	opacity: 0.75;
 }
+
+/* state buttons */
+
+.form__header {
+  margin-bottom: 40px;
+  border-bottom: 1px dashed rgba(250, 250, 250, 0.15);
+}
+
+.form__title {
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+.form__instruction {
+  font-size: 22px;
+}
+
+.form__options {
+  border: none;
+  padding: 0;
+}
+
+.form__question {
+  font-size: 25px;
+}
+
+.form__answer {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 23%;
+  margin: 20px 1% 20px 0;
+  height: 180px;
+  vertical-align: top;
+  font-size: 22px;
+  text-align: center;
+}
+
+label {
+  border: 1px solid rgba(250, 250, 250, 0.15);
+  box-sizing: border-box;
+  display: block;
+  
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+label:hover, label:focus, label:active {
+  border: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+
+
+/* Input style */
+input[type=radio] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+input[type=radio]:active ~ label {
+  opacity: 1;
+}
+
+input[type=radio]:checked ~ label {
+  opacity: 1;
+  border: 1px solid #FAFAFA;
+}
+
+

@@ -1,32 +1,29 @@
-import React, { Component } from 'react';
-import BootstrapTable from 'react-bootstrap-table-next';
-import ToolkitProvider, { Search } from 'react-bootstrap-table2-toolkit';
+import React, { useState } from 'react';
+import { useTable, useFilters } from 'react-table';
 
 
-const { SearchBar } = Search;
 const columns = [
   {
-    dataField: 'slNo',
-    text: 'Sl No'
+    Header: 'Sl No',
+    accessor: 'slNo'
   },
   {
-    dataField: 'stateName',
-    text: 'State Name'
+    Header: 'State Name',
+    accessor: 'stateName'
   },
   {
-    dataField: 'city',
-    text: 'City'
+    Header: 'City',
+    accessor: 'city'
   },
   {
-    dataField: 'storeName',
-    text: 'Store Name'
+    Header: 'Store Name',
+    accessor: 'storeName'
   }
 ];
 
-class WestCoast extends Component {
-  render() {
-    const data = [
-      { slNo: 1, stateName: 'Arizona', city: 'AZ', storeName: 'Cloves Indian grocery' },
+const MyTable = () => {
+  const [originalData, setOriginalData] = useState([
+    { slNo: 1, stateName: 'Arizona', city: 'AZ', storeName: 'Cloves Indian grocery' },
       { slNo: 2, stateName: 'Arizona', city: 'AZ', storeName: 'Turmeric' },
       { slNo: 3, stateName: 'Arizona', city: 'AZ', storeName: 'Turmeric cash & Carry' },
       { slNo: 4, stateName: 'Arizona', city: 'AZ', storeName: 'Lotus / Urban Chilli' },
@@ -78,37 +75,88 @@ class WestCoast extends Component {
       { slNo: 50, stateName: 'San Francisco', city: 'Sfo', storeName: 'New india Bazar' },
       { slNo: 51, stateName: 'San Francisco', city: 'Sfo', storeName: 'New india Bazar' },
       { slNo: 52, stateName: 'San Francisco', city: 'Sfo', storeName: 'New india Bazar' },
-      
-    ];
+  ]);
 
-    return (
-      <ToolkitProvider
-        keyField="slNo"
-        data={data}
-        columns={columns}
-        search
-      >
-        {
-          props => (
-            <div className='mt-5' style={{backgroundColor:'#f9f9f9'}}>
-             <div className='search-section shadow-sm  p-3 bg-rounded'>
-                    <div className='col-lg-6'>
-              <h3>Find Your Store</h3>
-              </div>
-              <div className='col-lg-6'>
-              <SearchBar {...props.searchProps} style={{borderColor:'black',border:'3px solid #66676A'}} />
-              </div>
-              </div>
-              <BootstrapTable
-                {...props.baseProps}
-                rowClasses={(row, rowIndex) => rowIndex % 2 === 0 ? 'odd-row' : 'even-row'}
-              />
-            </div>
-          )
-        }
-      </ToolkitProvider>
-    );
-  }
-}
+  const [data, setData] = useState(originalData);
 
-export default WestCoast;
+  const {
+    getTableProps,
+    getTableBodyProps,
+    headerGroups,
+    rows,
+    prepareRow,
+  } = useTable(
+    {
+      columns,
+      data,
+    },
+    useFilters
+  );
+
+  const handleSearchChange = (e) => {
+    const searchText = e.target.value;
+    if (searchText.trim() === '') {
+      setData(originalData);
+    } else {
+      setData(
+        originalData.filter(
+          (row) =>
+            row.storeName.toLowerCase().includes(searchText.toLowerCase()) ||
+            row.slNo.toString().includes(searchText) ||
+            row.stateName.toLowerCase().includes(searchText.toLowerCase()) ||
+            row.city.toLowerCase().includes(searchText.toLowerCase())
+        )
+      );
+    }
+  };
+
+  return (
+    <div className='mt-5' style={{ backgroundColor: '#f9f9f9' }}>
+      <div className='search-section shadow-sm p-3 bg-rounded'>
+        <div className='col-lg-6'>
+          <h3>Find Your Store</h3>
+        </div>
+        <div className='col-lg-6'>
+          <input
+            type='text'
+            placeholder='Search...'
+            onChange={handleSearchChange}
+            style={{ borderColor: 'black', border: '3px solid #66676A' }}
+          />
+        </div>
+      </div>
+      {data.length > 0 ? (
+        <table {...getTableProps()} className='table'>
+          <thead>
+            {headerGroups.map((headerGroup) => (
+              <tr {...headerGroup.getHeaderGroupProps()}>
+                {headerGroup.headers.map((column) => (
+                  <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+                ))}
+              </tr>
+            ))}
+          </thead>
+          <tbody {...getTableBodyProps()}>
+            {rows.map((row) => {
+              prepareRow(row);
+              return (
+                <tr
+                  {...row.getRowProps()}
+                  className={row.index % 2 === 0 ? 'odd-row' : 'even-row'}
+                >
+                  {row.cells.map((cell) => {
+                    return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>;
+                  })}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      ) : (
+        <p>No results found.</p>
+      )}
+    </div>
+  );
+};
+
+export default MyTable;

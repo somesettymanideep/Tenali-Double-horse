@@ -49,7 +49,7 @@ const markers = [
 class Mapointing extends Component {
     render() {
         return (
-          <div class="container mb-5 pt-5 pb-3">
+          <div className="container mb-5 pt-5 pb-3">
                  <h5 className="custom-primary text-center">Where to Find Us</h5>
                                 <h2 className="title text-center">Explore Our Operating Locations</h2>
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>

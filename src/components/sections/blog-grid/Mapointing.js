@@ -44,7 +44,8 @@ const markers = [
   ];
   
 
-
+  const geoUrl =
+  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json"
 
 class Mapointing extends Component {
     render() {
@@ -54,7 +55,7 @@ class Mapointing extends Component {
                                 <h2 className="title text-center">Explore Our Operating Locations</h2>
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 <ComposableMap >
-                    <Geographies geography={Mapdata}>
+                    <Geographies geography={geoUrl}>
                         {({ geographies }) =>
                             geographies.map((geo) => (
                                 <Geography key={geo.rsmKey} geography={geo} fill="#EAEAEC"

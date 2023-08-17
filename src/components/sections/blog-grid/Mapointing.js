@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { ComposableMap, Geographies, Geography,Marker} from "react-simple-maps";
-import Mapdata from "../../../data/Mapdata.json";
+import Mapdata from "../../../data/features.json";
 import { Link } from 'react-router-dom';
 
 
@@ -55,7 +55,7 @@ class Mapointing extends Component {
                                 <h2 className="title text-center">Explore Our Operating Locations</h2>
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 <ComposableMap >
-                    <Geographies geography={geoUrl}>
+                    <Geographies geography={Mapdata}>
                         {({ geographies }) =>
                             geographies.map((geo) => (
                                 <Geography key={geo.rsmKey} geography={geo} fill="#EAEAEC"

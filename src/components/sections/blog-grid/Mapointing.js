@@ -45,7 +45,7 @@ const markers = [
   
 
   const geoUrl =
-  "https://cdn.jsdelivr.net/npm/world-atlas@2/land-10m.json"
+  "https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json"
 
 class Mapointing extends Component {
     render() {

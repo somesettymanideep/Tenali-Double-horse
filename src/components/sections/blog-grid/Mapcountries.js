@@ -1,40 +1,57 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { Link } from 'react-router-dom';
+import { geoMercator, geoPath } from "d3-geo";
 
+class Mapointing extends Component {
+  render() {
+    const width = 800;
+    const height = 600;
 
-class Meetourteam extends Component {
-    render() {
-        return (
-            <div class="container mb-5 pt-5 pb-3">
-                 <h5 className="custom-primary text-center">Where to Find Us</h5>
-                                <h2 className="title text-center">Explore Our Operating Locations</h2>
-    
-    <div class="row">
-       
-        <div class="col-md-4 pt-3">
-            <div class="box">
-            <img src={process.env.PUBLIC_URL + "/assets/img/locations/india.png"}  alt="img" className='shadow-sm   bg-white rounded' />
-            <h5 className='text-center mt-4'>India</h5>
-            </div>
-           
+    const worldMapUrl =
+      "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
+
+    const projection = geoMercator().fitSize([width, height], worldMapUrl);
+
+    return (
+      <div className="container mb-5 pt-5 pb-3">
+        <h5 className="custom-primary text-center">Where to Find Us</h5>
+        <h2 className="title text-center">Explore Our Operating Locations</h2>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <svg width={width} height={height}>
+            {/* World Map */}
+            <path
+              d={geoPath().projection(projection)(worldMapUrl)}
+              fill="#EAEAEC"
+              stroke="#D6D6DA"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              transform="translate(-12, -24)"
+            />
+
+            {/* India Marker */}
+            <Link to="/contact">
+              <circle
+                cx={projection([78.9629, 20.5937])[0]}
+                cy={projection([78.9629, 20.5937])[1]}
+                r="5"
+                fill="#FF5533"
+              />
+            </Link>
+
+            {/* USA Marker */}
+            <Link to="/contact">
+              <circle
+                cx={projection([-95.7129, 37.0902])[0]}
+                cy={projection([-95.7129, 37.0902])[1]}
+                r="5"
+                fill="#FF5533"
+              />
+            </Link>
+          </svg>
         </div>
-        <div class="col-md-4 pt-3">
-            <div class="box">
-            <img src={process.env.PUBLIC_URL + "/assets/img/locations/usa.png"}  alt="img" className='shadow-sm p-2  bg-white rounded' />
-            <h5 className='text-center mt-4'>USA</h5>
-           
-            </div>
-        </div>
-        <div class="col-md-4 pt-3">
-            <div class="box">
-            <img src={process.env.PUBLIC_URL + "/assets/img/locations/uae.png"}  alt="img" className='shadow-sm  p-2 bg-white rounded' /> 
-            <h5 className='text-center mt-4'>UAE</h5>
-            </div>
-        </div>
-    </div>
-    
-</div>
-        );
-    }
+      </div>
+    );
+  }
 }
 
-export default Meetourteam;
+export default Mapointing;

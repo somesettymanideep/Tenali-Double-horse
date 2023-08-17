@@ -1,7 +1,7 @@
 {
   "name": "slices",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "lib/index",
   "types": "lib/index",
   "dependencies": {

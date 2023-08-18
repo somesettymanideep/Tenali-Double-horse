@@ -64,7 +64,7 @@ class Mapointing extends Component {
                         }
                     </Geographies>
                    
-     {/* {markers.map(({ name, coordinates, markerOffset }) => (
+    {markers.map(({ name, coordinates, markerOffset }) => (
               <Marker key={name} coordinates={coordinates}>
                 <g>
                   {name === "USA" ? (
@@ -113,7 +113,7 @@ class Mapointing extends Component {
                 </g>
               </Marker>
             ))}
-      */}
+      
            
                 </ComposableMap>
             </div>

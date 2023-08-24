@@ -8,7 +8,8 @@ import allStates from "../../../data/usadata.json";
 
 
 
-const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
+// const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
+const geoUrl ="https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json"
 
 const offsets = {
   VT: [50, -8],

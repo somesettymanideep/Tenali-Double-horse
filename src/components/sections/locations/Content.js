@@ -117,53 +117,7 @@ class Content extends Component {
                     </div>
                   
                     <MultipleMaps />
-                    {/* {location.map((item, i) => (
-                        <div key={i} className="location-item">
-                            <div className="row">
-                                <div className="col-md-6" style={{order:1}}>
-                                    <div className="location-item-inner">
-                                        <img src={process.env.PUBLIC_URL + "/" + item.img} alt={item.title} />
-                                        <div className="location-desc">
-                                            <h3>{item.title}</h3>
-                                            <p>{item.brancetype}</p>
-                                        </div>
-                                        <div className="location-info">
-                                            <div className="row">
-                                                <div className="col-6">
-                                                    {item.location.map((item, i) => (
-                                                        <span key={i}>{item}</span>
-                                                    ))}
-                                                </div>
-                                                <div className="col-6">
-                                                    <span> Give us a call: <a rel={'external'} href={"tel:" + item.contactno}>{item.contactno}</a> </span>
-                                                    <span> Email Us: <a rel={'external'} href={"mailto:" + item.emailid}>{item.emailid}</a></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6" style={{order:0}}>
-                                    <div className="ct-contact-map-wrapper">
-                                        <MapContainer
-                                            className="markercluster-map ct-contact-map"
-                                            center={item.mapdata}
-                                            zoom={16}
-                                            scrollWheelZoom={false}
-                                        >
-                                            <TileLayer
-                                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                                                attribution='&copy; Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
-                                                maxZoom={16}
-                                            />
-                                            <Marker position={item.mapdata} icon={customMarker}></Marker>
-                                        </MapContainer>
-                                        <a  className="btn-custom shadow-none" href={"http://maps.google.com/?q=" + item.mapdata}>View in Google Maps</a>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    ))} */}
+                  
                 </div>
             </div>
         );
